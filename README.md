@@ -8,7 +8,11 @@ Este é o meu repositório especialmente criado para a renomada **Faculdade de I
 
 <div align="center">
 
+<<<<<<< HEAD
 ![FIAP Logo]<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-fiap"></use> <!-- Substitua pelo link da imagem da logo da FIAP -->
+=======
+![FIAP Logo](https://upload.wikimedia.org/wikipedia/commons/d/d4/Fiap-logo-novo.jpg) <!-- Substitua pelo link da imagem da logo da FIAP -->
+>>>>>>> 7a2a5d22fcf1b727704d2b39c35b7d7b63c39fd4
 
 </div>
 
