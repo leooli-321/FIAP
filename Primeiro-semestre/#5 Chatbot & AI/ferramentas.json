@@ -1,0 +1,12 @@
+{
+    "ferramentas":
+    [
+        "Foi necessário pegar um Token de acesso em:",
+        "https://www.ibm.com",
+
+        "Para efetuar login em:",
+        "Site: https://cloud.ibm.com",
+        "afim de começar o uso do IBM Watson Assistant",
+        "usando minhas credenciais de aluno."
+    ]
+}
