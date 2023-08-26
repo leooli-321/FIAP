@@ -1,6 +1,7 @@
 {
     "ferramentas":
     [
-       "Eclipse IDE 2023"
+       "Eclipse IDE 2023",
+       "JDK .17"
     ]
 }
