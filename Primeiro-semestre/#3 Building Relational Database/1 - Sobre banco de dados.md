@@ -2,9 +2,11 @@
 
 Um banco de dados é uma coleção de dados bem projetados, organizados e cuidadosamente gerenciados. Esses dados podem incluir informações de várias naturezas e finalidades, como registros de clientes, transações financeiras, registros médicos e muito mais. Um banco de dados é geralmente controlado por um Sistema de Gerenciamento de Banco de Dados (DBMS) 🖥️, que gerencia o armazenamento, recuperação e manipulação dos dados.
 
+
 ## Projeto de Bancos de Dados 📝
 
 Projetar um banco de dados é utilizar um conjunto de técnicas, processos e notações que capturam os requisitos de dados, os requisitos estruturais para armazenamento dos dados e os requisitos físicos. Em essência, projetar um banco de dados envolve a criação de modelos de dados que representam a estrutura e os relacionamentos entre os dados de forma abstrata e compreensível.
+
 
 ### Etapas do Projeto 🛠️
 
@@ -23,6 +25,7 @@ O processo de projeto de bancos de dados geralmente envolve várias etapas:
 6. **População de Dados:** Inserir os dados iniciais no banco de dados.
 
 7. **Otimização:** Refinar o design para garantir eficiência e desempenho na recuperação de dados.
+
 
 ## Importância dos Bancos de Dados 💡
 
