@@ -6,4 +6,4 @@ base = float(input("Digite a base do triângulo: "))
 
 area = (base * altura) / 2
 
-print(f"Legal! A área do triângulo citado é de: {area:.1f} !")
+print(f"Legal! A área do triângulo citado é de: {area:.2f} !")
