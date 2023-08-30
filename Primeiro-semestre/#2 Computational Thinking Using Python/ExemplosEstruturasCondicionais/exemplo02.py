@@ -5,7 +5,7 @@
 
 num = int(input("Digite um número inteiro: "))
 
-if (num >= 1 and num <= 10):
+if num >= 1 and num <= 10:
     num = num + 2
 else:
     num = num * 3

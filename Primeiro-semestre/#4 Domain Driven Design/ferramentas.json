@@ -2,6 +2,7 @@
     "ferramentas":
     [
        "Eclipse IDE 2023",
-       "JDK .17"
+       "JDK .17",
+       "Astah"
     ]
 }
