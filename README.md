@@ -1,5 +1,5 @@
 <div align="center">
-  
+
 ## 🏛️ Bem-vindo ao meu Repositório da Faculdade FIAP! 📚
 
 </div>
@@ -9,7 +9,6 @@ Este é o meu repositório especialmente criado para a renomada **Faculdade de I
 <div align="center">
 
 ![FIAP Logo](https://upload.wikimedia.org/wikipedia/commons/d/d4/Fiap-logo-novo.jpg) <!-- Substitua pelo link da imagem da logo da FIAP -->
-
 
 </div>
 
@@ -36,5 +35,6 @@ Sinta-se à vontade para explorar os frutos do meu aprendizado e dedicação aqu
 Se você tiver alguma pergunta, feedback ou interesse em colaborações, não hesite em entrar em contato:
 
 - 📧 **Email**: leooli_artist@outlook.com
+- 📷 **Instagram**: [leooli321](https://www.instagram.com/leooli321/)
 
 Espero que este repositório seja informativo e inspirador. Aproveite a jornada pelo conhecimento compartilhado aqui na FIAP!
