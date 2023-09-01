@@ -1,6 +1,7 @@
-ano = 365
-mes = 12
+idade_dias = int(input("Digite a idade em dias: "))
+idade_meses = int(input("Digite a idade em meses: "))
+idade_anos = int(input("Digite a idade em anos: "))
 
-idade = int(input("Qual sua idade? "))
+total = (idade_anos * 365) + (idade_meses * 30) + idade_dias
 
-viveu = (ano * mes + 12)
+print(f"Você viveu {total} dias!")
