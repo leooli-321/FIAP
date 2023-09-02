@@ -24,9 +24,12 @@ public class TesteCliente {
 		
 		// Entrada:
 		objetoCliente.setNome(JOptionPane.showInputDialog("Digite o nome: "));
-		objetoCliente.setEmail("maira@kikuchi.com");
-		objetoCliente.setIdade(20);
-		objetoCliente.setValorConsulta(249.99);
+		objetoCliente.setEmail(JOptionPane.showInputDialog("Digite o email: "));
+		objetoCliente.setIdade(Integer.parseInt
+				(JOptionPane.showInputDialog("Digite a Idade: ")));
+		
+		objetoCliente.setValorConsulta(Double.parseDouble
+				(JOptionPane.showInputDialog("Digite o valor da consulta: ")));
 		
 		
 		//Saídas:
