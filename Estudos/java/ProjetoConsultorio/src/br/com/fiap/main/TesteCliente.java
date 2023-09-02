@@ -32,7 +32,7 @@ public class TesteCliente {
 				(JOptionPane.showInputDialog("Digite o valor da consulta: ")));
 		
 		
-		//Saídas:
+		// Saídas:
 		System.out.println("Nome: " + objetoCliente.getNome() + "\n" +
 				"Email: " + objetoCliente.getEmail() + "\n" +
 				"Idade: " + objetoCliente.getIdade() + "\n" +
