@@ -7,6 +7,8 @@ public class Cliente {
 	private int idade;
 	private double valorConsulta;
 	
+	private Endereco endereco;
+	
 	public String getNome() {
 		return nome;
 	}
