@@ -9,6 +9,12 @@ public class Cliente {
 	
 	private Endereco endereco;
 	
+	public Endereco getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
 	public String getNome() {
 		return nome;
 	}

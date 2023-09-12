@@ -3,6 +3,7 @@ package br.com.fiap.main;
 import javax.swing.JOptionPane;
 
 import br.com.fiap.beans.Cliente;
+import br.com.fiap.beans.Endereco;
 
 public class testeCliente {
 
@@ -11,6 +12,7 @@ public class testeCliente {
 		// Instanciar objetos
 		
 		Cliente objetoCliente = new Cliente();
+		Endereco objetoEndereco = new Endereco();
 		
 		
 		// Entrada (input)
@@ -35,12 +37,18 @@ public class testeCliente {
 						("Digite o valor da consulta: ")
 		));
 		
+		objetoEndereco.setLogradouro(JOptionPane.showInputDialog
+				("Digite o logradouro do cliente: ")
+		);
+		
+		
 		
 		// Saída (output)
 		System.out.println("Nome: " + objetoCliente.getNome() + 
 				"\nEmail: " + objetoCliente.getEmail() +
 				"\nIdade: " + objetoCliente.getIdade() +
-				"\nValor da Consulta: " + objetoCliente.getValorConsulta());
+				"\nValor da Consulta: " + objetoCliente.getValorConsulta() +
+				"\nLogradouro: " + objetoEndereco.getLogradouro());
 		
 	}
 
