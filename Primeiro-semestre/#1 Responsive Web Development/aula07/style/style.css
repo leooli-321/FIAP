@@ -1,0 +1,10 @@
+.lista1{
+    list-style-type: number;
+}
+
+.lista2{
+    list-style-type: katakana;
+}
+.lista3{
+    list-style-type: hiragana;
+}
