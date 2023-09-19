@@ -10,5 +10,7 @@ print("")
 
 if alturaPessoa1 > alturaPessoa2:
     print(f"{nomePessoa1} é mais alta que {nomePessoa2} !")
+elif alturaPessoa1 == alturaPessoa2:
+    print("As duas pessoas têm a mesma altura!")
 else:
     print(f"{nomePessoa2} é mais alta que {nomePessoa1} !")

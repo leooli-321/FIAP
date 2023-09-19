@@ -6,13 +6,13 @@ Assim sendo, escreva um programa em Python que solicite as quantidades dos itens
 '''
 
 caneta = float(input(f"Insira quanto gastou em canetas:\n"))
-qcaneta = float(input(f"Insira a quantidade de canetas compradas:\n"))
+qcaneta = int(input(f"Insira a quantidade de canetas compradas:\n"))
 
 lapis = float(input(f"Insira quanto gastou em lápis:\n"))
-qlapis = float(input(f"Insira a quantidade de lápis comprados:\n"))
+qlapis = int(input(f"Insira a quantidade de lápis comprados:\n"))
 
 caderno = float(input(f"Insira quanto gastou em cadernos:\n"))
-qcadernos = float(input(f"Insira a quantidade de cadernos comprados:\n"))
+qcadernos = int(input(f"Insira a quantidade de cadernos comprados:\n"))
 
 canetaDesconto = 0.05
 cadernoDesconto = 0.2

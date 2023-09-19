@@ -9,9 +9,17 @@ fritas = 35
 pasteis = 25
 cerveja = 18
 
-qFritas = int(input("Quantas porções de batatas fritas foram pedidas?\n"))
-qPasteis = int(input("Quantas porções de pastéis foram pedidos?\n"))
-qCervejas = int(input("Quantas cervejas foram pedidas?\n"))
+for i in range(3):
+    cod = int(input("Digite o código do produto (1-3)"))
+    match cod:
+        case 1:
+            qFritas = int(input("Quantas porções de batatas fritas foram pedidas?\n"))
+        case 2:
+            qPasteis = int(input("Quantas porções de pastéis foram pedidos?\n"))
+        case 3:
+            qCervejas = int(input("Quantas cervejas foram pedidas?\n"))
+        case _:
+            print("Número inválido")
 
 totalFritas = fritas * qFritas
 totalPasteis = pasteis * qPasteis
