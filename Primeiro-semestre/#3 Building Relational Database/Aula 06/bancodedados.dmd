@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bancodedados" id="BA8C5CE8-62EB-1BB0-5304-46D13F40865A" version="3.5">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:35:57 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BA8C5CE8-62EB-1BB0-5304-46D13F40865A</designId>
+</OSDM_Design>

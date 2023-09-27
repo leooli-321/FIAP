@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6630EA3-DA23-9148-3ECC-E25E512280C4" name="usuario">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:41:17 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_user" id="815521D7-E29A-7615-D42C-100D7566F9E1">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:43:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Minha chave primária ]]></commentInRDBMS>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="4A52C85C-6BC0-2CB2-6D22-C03A1AB28A2C">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:47:43 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="66647834-1073-54CF-6D67-2AEC2FBFBA8F">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:44:51 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="8A1F9B71-5BED-79F7-2E6C-1711DF40B0C2">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:45:45 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="BB651C8E-33D4-7A9A-6C24-49F18E6FA9BA">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:46:17 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDF510B3-984C-3E4D-BEC5-CD50AF1FBFD5" name="usuario PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:44:15 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>815521D7-E29A-7615-D42C-100D7566F9E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

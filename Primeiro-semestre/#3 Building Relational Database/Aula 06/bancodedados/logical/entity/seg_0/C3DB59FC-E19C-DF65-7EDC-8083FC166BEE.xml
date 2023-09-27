@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3DB59FC-E19C-DF65-7EDC-8083FC166BEE" name="Tarefas">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:48:40 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tarefa" id="5126E684-9804-1025-49C9-D8EB5C2A6504">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:48:52 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="FAB9C23C-B197-7443-923A-E5B4F71F7EA9">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:49:14 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="5A11F69F-910A-F0AC-9207-BA3C38089E87">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:49:57 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_criacao" id="72DDEDEA-3157-48E6-91E9-5E8E1ECC6636">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:50:41 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="97A347BC-E854-128C-D05A-6EECE1A82955">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:52:27 UTC</createdTime>
+<generatorID>35A5DEC4-6B95-AAAA-C6A8-49C32A88A33D</generatorID>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<referedAttribute>815521D7-E29A-7615-D42C-100D7566F9E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BB6F0FA-12D7-3479-C14D-433CF6A7D57C" name="Tarefas PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-09-26 23:50:15 UTC</createdTime>
+<ownerDesignName>bancodedados</ownerDesignName>
+<engineerTo>
+<item key="63FB774D-7CCC-7D75-9AEB-3B35AC79FE35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A11F69F-910A-F0AC-9207-BA3C38089E87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
