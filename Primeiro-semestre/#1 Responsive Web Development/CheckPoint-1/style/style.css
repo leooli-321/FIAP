@@ -1,0 +1,115 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna1,
+.coluna2,
+.coluna3 {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for headings */
+h1,
+h2 {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+/* Common styles for elements with class .simboloQuimico and .nome */
+.simboloQuimico,
+.nome {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.simboloQuimico {
+    font-size: 9px;
+}
+
+/* Styles for periodic table columns */
+.coluna1,
+.coluna2,
+.coluna3 {
+    border: 3px solid rgba(255, 255, 255, 0.788);
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    height: 4rem;
+    width: 4rem;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0px;
+    margin-top: 2px;
+    padding: 4px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.coluna1 {
+    background: linear-gradient(135deg, #26c72e, #1e9721);
+}
+
+.coluna2 {
+    background: linear-gradient(135deg, #a9c726, #95971e);
+}
+
+.coluna3 {
+    background: linear-gradient(135deg, #c76926, #97461e);
+}
+
+.coluna1:hover,
+.coluna2:hover,
+.coluna3:hover {
+    border: 3px solid rgba(23, 23, 23, 0.788);
+}
+
+.enlarged {
+    transform: scale(2);
+}
+
+.numeroAtomico {
+    text-align: center;
+    background-color: aliceblue;
+    width: 1rem;
+    padding: 1px;
+    border-radius: 25%;
+    font-size: 10px;
+}
+
+.pesoAtomico {
+    font-size: 10px;
+}
+
+#coluna1,
+#coluna2,
+#coluna3 {
+    display: inline-block;
+}
+
+#coluna4 {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    display: inline-flex;
+}
+
+#coluna5 {
+    margin: 2px;
+    margin-left: 5rem;
+    display: inline-flex;
+}
+
+footer {
+    margin-top: 10px;
+    display: inline-flex;
+    text-indent: 20px;
+    font-size: 5px;
+}

@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela Periódica</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/titulo.css">
+    <link rel="stylesheet" href="./style/background.css">
+  </head>
+
+  <body>
+
+    <h1 id="titulo">Tabela Periódica</h1>
+
+    <section class="tabela">
+      <div id="coluna1">
+        <section id="elemento1" class="coluna1" onclick="enlarge(this)">
+          <div class="numeroAtomico">1</div>
+          <div class="simboloQuimico">H</div>
+          <div class="nome">Hidrogênio</div>
+          <div class="pesoAtomico">1,008</div>
+        </section>
+
+        <section id="elemento2" class="coluna1" onclick="enlarge(this)">
+          <div class="numeroAtomico">3</div>
+          <div class="simboloQuimico">Li</div>
+          <div class="nome">Lítio</div>
+          <div class="pesoAtomico">6,94</div>
+        </section>
+
+        <section id="elemento3" class="coluna1" onclick="enlarge(this)">
+          <div class="numeroAtomico">11</div>
+          <div class="simboloQuimico">Na</div>
+          <div class="nome">Sódio</div>
+          <div class="pesoAtomico">22,99</div>
+        </section>
+
+        <section id="elemento4" class="coluna1" onclick="enlarge(this)">
+          <div class="numeroAtomico">19</div>
+          <div class="simboloQuimico">K</div>
+          <div class="nome">Potássio</div>
+          <div class="pesoAtomico">39,098</div>
+        </section>
+
+        <section id="elemento5" class="coluna1" onclick="enlarge(this)">
+          <div class="numeroAtomico">37</div>
+          <div class="simboloQuimico">Rb</div>
+          <div class="nome">Rubídio</div>
+          <div class="pesoAtomico">85,468</div>
+        </section>
+
+        <section id="elemento6" class="coluna1" onclick="enlarge(this)">
+          <div class="numeroAtomico">55</div>
+          <div class="simboloQuimico">Cs</div>
+          <div class="nome">Césio</div>
+          <div class="pesoAtomico">132,905</div>
+        </section>
+
+        <section id="elemento7" class="coluna1" onclick="enlarge(this)">
+          <div class="numeroAtomico">87</div>
+          <div class="simboloQuimico">Fr</div>
+          <div class="nome">Frâncio</div>
+          <div class="pesoAtomico">[223]</div>
+        </section>
+      </div>
+
+      <div id="coluna2">
+        <section id="elemento11" class="coluna2" onclick="enlarge(this)">
+          <div class="numeroAtomico">4</div>
+          <div class="simboloQuimico">Be</div>
+          <div class="nome">Berílio</div>
+          <div class="pesoAtomico">9,0122</div>
+        </section>
+
+        <section id="elemento12" class="coluna2" onclick="enlarge(this)">
+          <div class="numeroAtomico">12</div>
+          <div class="simboloQuimico">Mg</div>
+          <div class="nome">Magnésio</div>
+          <div class="pesoAtomico">24,305</div>
+        </section>
+
+        <section id="elemento13" class="coluna2" onclick="enlarge(this)">
+          <div class="numeroAtomico">20</div>
+          <div class="simboloQuimico">Ca</div>
+          <div class="nome">Cálcio</div>
+          <div class="pesoAtomico">40,078</div>
+        </section>
+
+        <section id="elemento14" class="coluna2" onclick="enlarge(this)">
+          <div class="numeroAtomico">38</div>
+          <div class="simboloQuimico">Sr</div>
+          <div class="nome">Estrôncio</div>
+          <div class="pesoAtomico">87,62</div>
+        </section>
+
+        <section id="elemento15" class="coluna2" onclick="enlarge(this)">
+          <div class="numeroAtomico">56</div>
+          <div class="simboloQuimico">Ba</div>
+          <div class="nome">Bário</div>
+          <div class="pesoAtomico">137,327</div>
+        </section>
+
+        <section id="elemento16" class="coluna2" onclick="enlarge(this)">
+          <div class="numeroAtomico">88</div>
+          <div class="simboloQuimico">Ra</div>
+          <div class="nome">Rádio</div>
+          <div class="pesoAtomico">[226]</div>
+        </section>
+      </div>
+
+      <!-- Metais de Transição -->
+     
+        <div id="coluna3">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">21</div>
+            <div class="simboloQuimico">Sc</div>
+            <div class="nome">Escândio</div>
+            <div class="pesoAtomico">44,956</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">39</div>
+            <div class="simboloQuimico">Y</div>
+            <div class="nome">Ítrio</div>
+            <div class="pesoAtomico">88,906</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">57-71</div>
+            <div class="simboloQuimico">-</div>
+            <div class="nome">-</div>
+            <div class="pesoAtomico">-</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">89-103</div>
+            <div class="simboloQuimico">-</div>
+            <div class="nome">-</div>
+            <div class="pesoAtomico">-</div>
+          </section>
+        </div>
+
+        <div id="coluna3">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">22</div>
+            <div class="simboloQuimico">Ti</div>
+            <div class="nome">Titânio</div>
+            <div class="pesoAtomico">47,867</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">40</div>
+            <div class="simboloQuimico">Zr</div>
+            <div class="nome">Zircônio</div>
+            <div class="pesoAtomico">91,224</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">72</div>
+            <div class="simboloQuimico">Hf</div>
+            <div class="nome">Háfnio</div>
+            <div class="pesoAtomico">178,49</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">104</div>
+            <div class="simboloQuimico">Rf</div>
+            <div class="nome">Rutherfórdio</div>
+            <div class="pesoAtomico">261</div>
+          </section>
+        </div>
+
+        <div id="coluna3">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">23</div>
+            <div class="simboloQuimico">V</div>
+            <div class="nome">Vanádio</div>
+            <div class="pesoAtomico">50,942</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">41</div>
+            <div class="simboloQuimico">Nb</div>
+            <div class="nome">Nióbio</div>
+            <div class="pesoAtomico">92,906.38</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">73</div>
+            <div class="simboloQuimico">Ta</div>
+            <div class="nome">Tântalo</div>
+            <div class="pesoAtomico">180,948</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">105</div>
+            <div class="simboloQuimico">Db</div>
+            <div class="nome">Dúbnio</div>
+            <div class="pesoAtomico">[262]</div>
+          </section>
+        </div>
+
+        <div id="coluna3">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">24</div>
+            <div class="simboloQuimico">Cr</div>
+            <div class="nome">Cromo</div>
+            <div class="pesoAtomico">51,996</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">42</div>
+            <div class="simboloQuimico">Mo</div>
+            <div class="nome">Molibdênio</div>
+            <div class="pesoAtomico">95,94</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">74</div>
+            <div class="simboloQuimico">W</div>
+            <div class="nome">Tungstênio</div>
+            <div class="pesoAtomico">183,84</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">106</div>
+            <div class="simboloQuimico">Sg</div>
+            <div class="nome">Seabórgio</div>
+            <div class="pesoAtomico">[266]</div>
+          </section>
+        </div>
+
+        <div id="coluna3">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">25</div>
+            <div class="simboloQuimico">Mn</div>
+            <div class="nome">Manganês</div>
+            <div class="pesoAtomico">54,938</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">43</div>
+            <div class="simboloQuimico">Tc</div>
+            <div class="nome">Tecnécio</div>
+            <div class="pesoAtomico">[98]</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">75</div>
+            <div class="simboloQuimico">Re</div>
+            <div class="nome">Rênio</div>
+            <div class="pesoAtomico">186,207</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">107</div>
+            <div class="simboloQuimico">Bh</div>
+            <div class="nome">Bôhrio</div>
+            <div class="pesoAtomico">[264]</div>
+          </section>
+        </div>
+
+        <div id="coluna3">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">26</div>
+            <div class="simboloQuimico">Fe</div>
+            <div class="nome">Ferro</div>
+            <div class="pesoAtomico">55,845</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">44</div>
+            <div class="simboloQuimico">Ru</div>
+            <div class="nome">Rutênio</div>
+            <div class="pesoAtomico">101,07</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">76</div>
+            <div class="simboloQuimico">Os</div>
+            <div class="nome">Ósmio</div>
+            <div class="pesoAtomico">190,23</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">108</div>
+            <div class="simboloQuimico">Hs</div>
+            <div class="nome">Hássio</div>
+            <div class="pesoAtomico">[277]</div>
+          </section>
+        </div>
+
+        <div id="coluna3">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">27</div>
+            <div class="simboloQuimico">Co</div>
+            <div class="nome">Cobalto</div>
+            <div class="pesoAtomico">58,933</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">45</div>
+            <div class="simboloQuimico">Rh</div>
+            <div class="nome">Ródio</div>
+            <div class="pesoAtomico">102.905,50</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">77</div>
+            <div class="simboloQuimico">Ir</div>
+            <div class="nome">Irídio</div>
+            <div class="pesoAtomico">192,217</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">109</div>
+            <div class="simboloQuimico">Mt</div>
+            <div class="nome">Meitnério</div>
+            <div class="pesoAtomico">[268]</div>
+          </section>
+        </div>
+
+        <div id="coluna3">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">28</div>
+            <div class="simboloQuimico">Ni</div>
+            <div class="nome">Níquel</div>
+            <div class="pesoAtomico">58,693</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">46</div>
+            <div class="simboloQuimico">Pd</div>
+            <div class="nome">Paládio</div>
+            <div class="pesoAtomico">106,42</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">78</div>
+            <div class="simboloQuimico">Pt</div>
+            <div class="nome">Platina</div>
+            <div class="pesoAtomico">195,084</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">110</div>
+            <div class="simboloQuimico">Ds</div>
+            <div class="nome">Darmstádio</div>
+            <div class="pesoAtomico">[271]</div>
+          </section>
+        </div>
+
+        <div id="coluna3">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">29</div>
+            <div class="simboloQuimico">Cu</div>
+            <div class="nome">Cobre</div>
+            <div class="pesoAtomico">63,546</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">47</div>
+            <div class="simboloQuimico">Ag</div>
+            <div class="nome">Prata</div>
+            <div class="pesoAtomico">107,868</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">79</div>
+            <div class="simboloQuimico">Au</div>
+            <div class="nome">Ouro</div>
+            <div class="pesoAtomico">196,967</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">111</div>
+            <div class="simboloQuimico">Rg</div>
+            <div class="nome">Roentgênio</div>
+            <div class="pesoAtomico">[272]</div>
+          </section>
+        </div>
+
+        <div id="coluna3">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">30</div>
+            <div class="simboloQuimico">Zn</div>
+            <div class="nome">Zinco</div>
+            <div class="pesoAtomico">65,409</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">48</div>
+            <div class="simboloQuimico">Cd</div>
+            <div class="nome">Cádmio</div>
+            <div class="pesoAtomico">112,411</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">80</div>
+            <div class="simboloQuimico">Hg</div>
+            <div class="nome">Mercúrio</div>
+            <div class="pesoAtomico">200,59</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">112</div>
+            <div class="simboloQuimico">Cn</div>
+            <div class="nome">Copernício</div>
+            <div class="pesoAtomico">[277]</div>
+          </section>
+        </div>
+   
+
+      <!-- Seção Direita -->
+   
+        <div id="coluna2">
+          <section id="elemento11" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">5</div>
+            <div class="simboloQuimico">B</div>
+            <div class="nome">Boro</div>
+            <div class="pesoAtomico">10,811</div>
+          </section>
+
+          <section id="elemento12" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">13</div>
+            <div class="simboloQuimico">Al</div>
+            <div class="nome">Alumínio</div>
+            <div class="pesoAtomico">26,982</div>
+          </section>
+
+          <section id="elemento13" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">31</div>
+            <div class="simboloQuimico">Ga</div>
+            <div class="nome">Gálio</div>
+            <div class="pesoAtomico">69,723</div>
+          </section>
+
+          <section id="elemento14" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">49</div>
+            <div class="simboloQuimico">In</div>
+            <div class="nome">Índio</div>
+            <div class="pesoAtomico">114,818</div>
+          </section>
+
+          <section id="elemento15" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">81</div>
+            <div class="simboloQuimico">Ti</div>
+            <div class="nome">Tálio</div>
+            <div class="pesoAtomico">204,383</div>
+          </section>
+
+          <section id="elemento16" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">113</div>
+            <div class="simboloQuimico">Nh</div>
+            <div class="nome">Nihônio</div>
+            <div class="pesoAtomico">[286]</div>
+          </section>
+        </div>
+
+        <div id="coluna2">
+          <section id="elemento11" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">6</div>
+            <div class="simboloQuimico">Carbono</div>
+            <div class="nome">12,011</div>
+            <div class="pesoAtomico">12,011</div>
+          </section>
+
+          <section id="elemento12" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">14</div>
+            <div class="simboloQuimico">Si</div>
+            <div class="nome">Silício</div>
+            <div class="pesoAtomico">28,086</div>
+          </section>
+
+          <section id="elemento13" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">32</div>
+            <div class="simboloQuimico">Ge</div>
+            <div class="nome">Germânio</div>
+            <div class="pesoAtomico">72,64</div>
+          </section>
+
+          <section id="elemento15" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">50</div>
+            <div class="simboloQuimico">Sn</div>
+            <div class="nome">Estanho</div>
+            <div class="pesoAtomico">118,71</div>
+          </section>
+
+          <section id="elemento16" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">82</div>
+            <div class="simboloQuimico">Pb</div>
+            <div class="nome">Chumbo</div>
+            <div class="pesoAtomico">207,2</div>
+          </section>
+
+          <section id="elemento11" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">114</div>
+            <div class="simboloQuimico">Fl</div>
+            <div class="nome">Fleróvio</div>
+            <div class="pesoAtomico">[289]</div>
+          </section>
+        </div>
+        <div id="coluna2">
+
+
+          <section id="elemento12" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">7</div>
+            <div class="simboloQuimico">N</div>
+            <div class="nome">Nitrogênio</div>
+            <div class="pesoAtomico">14,007</div>
+          </section>
+
+          <section id="elemento13" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">15</div>
+            <div class="simboloQuimico">P</div>
+            <div class="nome">Fósforo</div>
+            <div class="pesoAtomico">30,974</div>
+          </section>
+
+          <section id="elemento14" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">33</div>
+            <div class="simboloQuimico">As</div>
+            <div class="nome">Arsênio</div>
+            <div class="pesoAtomico">74,922</div>
+          </section>
+
+          <section id="elemento15" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">51</div>
+            <div class="simboloQuimico">Sb</div>
+            <div class="nome">Antimônio</div>
+            <div class="pesoAtomico">121,76</div>
+          </section>
+
+          <section id="elemento16" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">83</div>
+            <div class="simboloQuimico">Bi</div>
+            <div class="nome">Bismuto</div>
+            <div class="pesoAtomico">208,98</div>
+          </section>
+
+          <section id="elemento12" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">115</div>
+            <div class="simboloQuimico">Mc</div>
+            <div class="nome">Moscóvio</div>
+            <div class="pesoAtomico">[288]</div>
+          </section>
+        </div>
+
+        <div id="coluna2">
+
+
+          <section id="elemento13" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">8</div>
+            <div class="simboloQuimico">O</div>
+            <div class="nome">Oxigênio</div>
+            <div class="pesoAtomico">16</div>
+          </section>
+
+          <section id="elemento14" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">16</div>
+            <div class="simboloQuimico">S</div>
+            <div class="nome">Enxofre</div>
+            <div class="pesoAtomico">32,065</div>
+          </section>
+
+          <section id="elemento15" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">34</div>
+            <div class="simboloQuimico">Se</div>
+            <div class="nome">Selênio</div>
+            <div class="pesoAtomico">78,96</div>
+          </section>
+
+          <section id="elemento16" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">52</div>
+            <div class="simboloQuimico">Te</div>
+            <div class="nome">Telúrio</div>
+            <div class="pesoAtomico">127,6</div>
+          </section>
+
+          <section id="elemento11" class="coluna2">
+            <div class="numeroAtomico">84</div>
+            <div class="simboloQuimico">Po</div>
+            <div class="nome">Polônio</div>
+            <div class="pesoAtomico">[210]</div>
+          </section>
+
+          <section id="elemento11" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">116</div>
+            <div class="simboloQuimico">Lv</div>
+            <div class="nome">Livermório</div>
+            <div class="pesoAtomico">[293]</div>
+          </section>
+        </div>
+        <div id="coluna2">
+          <section id="elemento11" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">9</div>
+            <div class="simboloQuimico">F</div>
+            <div class="nome">Flúor</div>
+            <div class="pesoAtomico">18,998</div>
+          </section>
+
+          <section id="elemento12" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">17</div>
+            <div class="simboloQuimico">Cl</div>
+            <div class="nome">Cloro</div>
+            <div class="pesoAtomico">35,453</div>
+          </section>
+
+          <section id="elemento13" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">35</div>
+            <div class="simboloQuimico">Br</div>
+            <div class="nome">Bromo</div>
+            <div class="pesoAtomico">79,904</div>
+          </section>
+
+          <section id="elemento14" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">53</div>
+            <div class="simboloQuimico">I</div>
+            <div class="nome">Iodo</div>
+            <div class="pesoAtomico">126.904,47</div>
+          </section>
+
+          <section id="elemento16" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">85</div>
+            <div class="simboloQuimico">At</div>
+            <div class="nome">Astato</div>
+            <div class="pesoAtomico">[210]</div>
+          </section>
+
+          <section id="elemento16" class="coluna2" onclick="enlarge(this)">
+            <div class="numeroAtomico">117</div>
+            <div class="simboloQuimico">Ts</div>
+            <div class="nome">Tenessino</div>
+            <div class="pesoAtomico">[294]</div>
+          </section>
+        </div>
+     
+
+      <!-- Ultima Seção -->
+    
+        <div id="coluna1">
+          <section id="elemento1" class="coluna1" onclick="enlarge(this)">
+            <div class="numeroAtomico">2</div>
+            <div class="simboloQuimico">He</div>
+            <div class="nome">Hélio</div>
+            <div class="pesoAtomico">4.003</div>
+          </section>
+
+          <section id="elemento2" class="coluna1" onclick="enlarge(this)">
+            <div class="numeroAtomico">10</div>
+            <div class="simboloQuimico">Ne</div>
+            <div class="nome">Neônio</div>
+            <div class="pesoAtomico">20.18</div>
+          </section>
+
+          <section id="elemento3" class="coluna1" onclick="enlarge(this)">
+            <div class="numeroAtomico">18</div>
+            <div class="simboloQuimico">Ar</div>
+            <div class="nome">Argônio</div>
+            <div class="pesoAtomico">39,948</div>
+          </section>
+
+          <section id="elemento4" class="coluna1" onclick="enlarge(this)">
+            <div class="numeroAtomico">36</div>
+            <div class="simboloQuimico">Kr</div>
+            <div class="nome">Criptônio</div>
+            <div class="pesoAtomico">83,798</div>
+          </section>
+
+          <section id="elemento5" class="coluna1" onclick="enlarge(this)">
+            <div class="numeroAtomico">54</div>
+            <div class="simboloQuimico">Xe</div>
+            <div class="nome">Xenônio</div>
+            <div class="pesoAtomico">131,293</div>
+          </section>
+
+          <section id="elemento6" class="coluna1" onclick="enlarge(this)">
+            <div class="numeroAtomico">86</div>
+            <div class="simboloQuimico">Rn</div>
+            <div class="nome">Radônio</div>
+            <div class="pesoAtomico">[220]</div>
+          </section>
+
+          <section id="elemento7" class="coluna1" onclick="enlarge(this)">
+            <div class="numeroAtomico">118</div>
+            <div class="simboloQuimico">Og</div>
+            <div class="nome">Oganessônio</div>
+            <div class="pesoAtomico">[294]</div>
+          </section>
+        </div>
+
+
+      <!-- Seção de baixo 1 -->
+
+        <div id="coluna4">
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">57</div>
+            <div class="simboloQuimico">La</div>
+            <div class="nome">Lantânio</div>
+            <div class="pesoAtomico">138.905</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">58</div>
+            <div class="simboloQuimico">Ce</div>
+            <div class="nome">Cério</div>
+            <div class="pesoAtomico">140,116</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">59</div>
+            <div class="simboloQuimico">Pr</div>
+            <div class="nome">Praseodímio</div>
+            <div class="pesoAtomico">140,908</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">60</div>
+            <div class="simboloQuimico">Nd</div>
+            <div class="nome">Neodímio</div>
+            <div class="pesoAtomico">144,242</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">61</div>
+            <div class="simboloQuimico">Pm</div>
+            <div class="nome">Promécio</div>
+            <div class="pesoAtomico">[145]</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">62</div>
+            <div class="simboloQuimico">Sm</div>
+            <div class="nome">Samário</div>
+            <div class="pesoAtomico">150,36</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">63</div>
+            <div class="simboloQuimico">Eu</div>
+            <div class="nome">Európio</div>
+            <div class="pesoAtomico">151,964</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">64</div>
+            <div class="simboloQuimico">Gd</div>
+            <div class="nome">Gadolínio</div>
+            <div class="pesoAtomico">157,25</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">65</div>
+            <div class="simboloQuimico">Tb</div>
+            <div class="nome">Térbio</div>
+            <div class="pesoAtomico">158,925</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">66</div>
+            <div class="simboloQuimico">Dy</div>
+            <div class="nome">Disprósio</div>
+            <div class="pesoAtomico">162,5</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">67</div>
+            <div class="simboloQuimico">Ho</div>
+            <div class="nome">Hólmio</div>
+            <div class="pesoAtomico">164.930,32</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">68</div>
+            <div class="simboloQuimico">Er</div>
+            <div class="nome">Érbio</div>
+            <div class="pesoAtomico">167,259</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">69</div>
+            <div class="simboloQuimico">Tm</div>
+            <div class="nome">Túlio</div>
+            <div class="pesoAtomico">168,934</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">70</div>
+            <div class="simboloQuimico">Yb</div>
+            <div class="nome">itérbio</div>
+            <div class="pesoAtomico">173,04</div>
+          </section>
+
+          <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+            <div class="numeroAtomico">71</div>
+            <div class="simboloQuimico">Lu</div>
+            <div class="nome">Lutécio</div>
+            <div class="pesoAtomico">174,967</div>
+          </section>
+        </div>
+        <div id="coluna5">
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">89</div>
+              <div class="simboloQuimico">Ac</div>
+              <div class="nome">Actínio</div>
+              <div class="pesoAtomico">[227]</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">90</div>
+              <div class="simboloQuimico">Th</div>
+              <div class="nome">Tório</div>
+              <div class="pesoAtomico">232,03806</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">91</div>
+              <div class="simboloQuimico">Pa</div>
+              <div class="nome">Proctactínio</div>
+              <div class="pesoAtomico">231,03588</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">92</div>
+              <div class="simboloQuimico">U</div>
+              <div class="nome">Urânio</div>
+              <div class="pesoAtomico">238,02891</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">93</div>
+              <div class="simboloQuimico">Np</div>
+              <div class="nome">Netúnio</div>
+              <div class="pesoAtomico">[237]</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">94</div>
+              <div class="simboloQuimico">Pu</div>
+              <div class="nome">Plutônio</div>
+              <div class="pesoAtomico">[244]</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">95</div>
+              <div class="simboloQuimico">Am</div>
+              <div class="nome">Amerício</div>
+              <div class="pesoAtomico">[243]</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">96</div>
+              <div class="simboloQuimico">Cm</div>
+              <div class="nome">Cúrio</div>
+              <div class="pesoAtomico">[247]</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">97</div>
+              <div class="simboloQuimico">Bk</div>
+              <div class="nome">Berquélio</div>
+              <div class="pesoAtomico">[247]</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">98</div>
+              <div class="simboloQuimico">Cf</div>
+              <div class="nome">Califórnio</div>
+              <div class="pesoAtomico">[251]</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">99</div>
+              <div class="simboloQuimico">Es</div>
+              <div class="nome">Einsténio</div>
+              <div class="pesoAtomico">[252]</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">100</div>
+              <div class="simboloQuimico">Fm</div>
+              <div class="nome">Férmio</div>
+              <div class="pesoAtomico">[257]</div>
+            </section>
+  
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">101</div>
+              <div class="simboloQuimico">Md</div>
+              <div class="nome">Mendelévio</div>
+              <div class="pesoAtomico">[258]</div>
+            </section>
+
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">102</div>
+              <div class="simboloQuimico">No</div>
+              <div class="nome">Nobélio</div>
+              <div class="pesoAtomico">[259]</div>
+            </section>
+
+            <section id="elemento21" class="coluna3" onclick="enlarge(this)">
+              <div class="numeroAtomico">103</div>
+              <div class="simboloQuimico">Lr</div>
+              <div class="nome">Laurêncio</div>
+              <div class="pesoAtomico">[262]</div>
+            </section>
+          </div>
+
+
+
+
+    </section>
+
+    <footer>
+        <h2>Por:</h2>
+        <h2>Leonardo de Oliveira - RM554024</h2>
+        <h2>Pedro Reis - RM552678</h2>
+        <h2>Raphael Lopes de Almeida - RM553854</h2>
+        <h2> Fernando Bondezan Malagoli - RM552655</h2>
+    </footer>
+
+    <script src="./scrypt/scrypt.js"></script>
+
+  </body>
+</html>

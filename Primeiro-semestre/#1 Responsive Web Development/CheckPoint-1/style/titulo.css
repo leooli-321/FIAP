@@ -1,0 +1,44 @@
+#titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 46px;
+    text-align: center;
+    color: transparent;
+    /* Set the initial color to transparent */
+    margin-top: 20px;
+    animation: changeColor 60s linear infinite alternate;
+}
+
+/* Define a custom keyframe animation to change the text color */
+@keyframes changeColor {
+    0% {
+        color: red;
+        /* Start with red color */
+    }
+
+    25% {
+        color: blue;
+        /* Change to blue at 25% */
+    }
+
+    50% {
+        color: green;
+        /* Change to green at 50% */
+    }
+
+    75% {
+        color: orange;
+        /* Change to orange at 75% */
+    }
+
+    100% {
+        color: red;
+        /* Return to red at 100% */
+    }
+}
+
+/* Add a subtle hover effect */
+#titulo:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
