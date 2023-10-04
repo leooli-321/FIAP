@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;be.com.fiap.main&apos; to &apos;br.com.fiap.main&apos;&#x0D;&#x0A;- Original project: &apos;ProjetoFIAP&apos;&#x0D;&#x0A;- Original element: &apos;ProjetoFIAP/src/be.com.fiap.main&apos;&#x0D;&#x0A;- Renamed element: &apos;ProjetoFIAP/src/br.com.fiap.main&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;be.com.fiap.main&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;be.com.fiap.main" name="br.com.fiap.main" qualified="false" references="true" stamp="1696379404284" textual="false" version="1.0"/>
+</session>

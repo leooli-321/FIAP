@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC3885A5-F36A-CD92-66C8-1C8DAA22F51B" name="FUNCIONARIO">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:01:24 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MATRICULA" id="95DC6A4C-B1ED-A8F9-2335-3840DF70B84A">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:14:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave primária do funcionário]]></commentInRDBMS>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="9B54D92B-A9E3-F7BB-F427-31C8A4D2C61F">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:01:35 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEXO" id="3009EAFE-5F94-E536-6016-B8097494F300">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:01:50 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO" id="F401ABE6-E5C9-3C36-82B4-D725B507281D">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:02:08 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGRADOURO" id="47DC98B4-0690-831D-5674-47AC21D6EBFC">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:06:49 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>130 CHAR</dataTypeSize>
+<ownDataTypeParameters>130 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="125CCAB6-B02D-FEBD-4D49-D21D90953D2E">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:07:38 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="33A3897C-A942-6E9C-729B-00B089D8B66A">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:08:47 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAIRRO" id="940FFC11-DE05-F41F-ADFC-824C77B49E86">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:08:26 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CC8101F-74E5-ECC8-BC38-D7EE7543A119" name="FUNCIONARIO PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:14:02 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95DC6A4C-B1ED-A8F9-2335-3840DF70B84A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

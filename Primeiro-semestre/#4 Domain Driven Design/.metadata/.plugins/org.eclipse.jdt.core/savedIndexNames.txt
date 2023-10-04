@@ -1,0 +1,10 @@
+INDEX VERSION 1.134+C:\Users\Leo Oli\Desktop\FIAP\Estudos\java\.metadata\.plugins\org.eclipse.jdt.core
+4103355130.index
+3315703561.index
+2977474027.index
+1865797976.index
+456522098.index
+1009181595.index
+204434604.index
+3867852137.index
+3603501858.index

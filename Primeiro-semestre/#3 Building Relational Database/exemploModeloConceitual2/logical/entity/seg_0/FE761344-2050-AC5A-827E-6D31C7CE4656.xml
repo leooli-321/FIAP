@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE761344-2050-AC5A-827E-6D31C7CE4656" name="TELEFONE">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:36:17 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TELEFONE" id="424C8513-A9F5-E5A3-2A65-AFA42FC6D396">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:36:27 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDD" id="8509E200-0B85-B420-BE2B-72BB6DCDA769">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:37:59 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="F689DBA0-2E1A-FEBD-C5B7-C67F9771E351">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:37:11 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATRICULA" id="8B049A29-E5F6-A988-6DBD-7D9D42987B50">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:38:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave estrangeira]]></commentInRDBMS>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATRICULA1" id="071F247F-9E1E-F187-AE1F-8A92BF2FA4FC">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:59:16 UTC</createdTime>
+<generatorID>500ECB52-AD29-5DB8-DC4A-8DC397C1BEC4</generatorID>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<referedAttribute>95DC6A4C-B1ED-A8F9-2335-3840DF70B84A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF5A33F2-93DD-CB6C-6BBD-5B3DDB58B01C" name="TELEFONE PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-03 23:37:01 UTC</createdTime>
+<ownerDesignName>exemploModeloConceitual2</ownerDesignName>
+<engineerTo>
+<item key="BEE8CBDF-95D2-4195-4D26-04B847496B1D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>424C8513-A9F5-E5A3-2A65-AFA42FC6D396</attributeRef>
+<attributeRef>071F247F-9E1E-F187-AE1F-8A92BF2FA4FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

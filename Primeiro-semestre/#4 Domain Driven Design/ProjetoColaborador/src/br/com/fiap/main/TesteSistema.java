@@ -1,0 +1,44 @@
+package br.com.fiap.main;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Colaborador;
+import br.com.fiap.beans.Endereco;
+
+public class TesteSistema {
+
+	public static void main(String[] args) {
+		// Instanciar Objetos:
+		
+		Colaborador objColaborador = new Colaborador();
+		Endereco objEndereco = new Endereco();
+		
+		//Entrada
+		//Colaborador:
+		objColaborador.setNome(JOptionPane.showInputDialog
+				("Digite o nome do Colaborador: "));
+		objColaborador.setIdade(Integer.parseInt
+				(JOptionPane.showInputDialog
+						("Digite a idade do colaborador: ")));
+		objColaborador.setValorHora(Double.parseDouble
+				(JOptionPane.showInputDialog
+						("Digite o valor da hora trabalhada: ")));
+		objColaborador.setQtdadeHoras(Double.parseDouble
+				(JOptionPane.showInputDialog
+						("Digite a quantidade de horas trabalhadas: ")));
+		// Endereco
+		objEndereco.setLogradouro(JOptionPane.showInputDialog
+				("Informe o endereço: "));
+		objEndereco.setCep(JOptionPane.showInputDialog
+				("Informe o CEP: "));
+		objEndereco.setNumero(Integer.parseInt(JOptionPane.showInputDialog
+				("Informe o Número: ")));
+		
+		//Saídas:
+		System.out.println(objColaborador.getNomeIdade() +
+				"\nSalário: " + objColaborador.calcularSalario() +
+				"\n Paga Taxa? " + objColaborador.pagarTaxa());
+
+	}
+
+}
