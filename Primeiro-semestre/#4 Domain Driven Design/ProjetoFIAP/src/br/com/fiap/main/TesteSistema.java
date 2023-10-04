@@ -7,6 +7,18 @@ import br.com.fiap.beans.Colaborador;
 import br.com.fiap.beans.Endereco;
 
 public class TesteSistema {
+	
+	static String texto(String j) {
+		return JOptionPane.showInputDialog(j);
+	}
+	
+	static int inteiro(int j) {
+		return Integer.parseInt(JOptionPane.showInputDialog(j));
+	}
+	
+	static double real (double j) {
+		return Double.parseDouble(JOptionPane.showInputDialog(j));
+	}
 
 	public static void main(String[] args) {
 		// Instanciar objetos
@@ -22,8 +34,8 @@ public class TesteSistema {
 		
 		
 		//String logradouro, String cep
-		Endereco objEndereco = new Endereco(JOptionPane.showInputDialog("Digite o logradouro"),
-				JOptionPane.showInputDialog("Digite o CEP:"), Integer.parseInt
+		Endereco objEndereco = new Endereco(texto("Digite o logradouro"),
+				texto("Digite o CEP:"), Integer.parseInt
 				(JOptionPane.showInputDialog("Digite o número: ")));
 		
 		//String nome, String cargo

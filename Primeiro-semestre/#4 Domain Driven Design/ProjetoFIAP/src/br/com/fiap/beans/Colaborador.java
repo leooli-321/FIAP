@@ -20,6 +20,15 @@ public class Colaborador {
 		this.cargo = cargo;
 		this.salario = salario;
 	}
+	
+
+	public double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
 
 	// Setters and Getters
 	public String getNome() {
