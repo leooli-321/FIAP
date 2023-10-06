@@ -6,3 +6,17 @@
    sendo que o usuário deverá digitar os preços e as quantidades dos produtos e, quando a compra terminar,
     digitar 0 (zero) no valor do preço para finalizar e informar o valor a pagar ao cliente.'''
 
+totalProduto = []
+quantidadeTotal = []
+
+while True:
+    produto = float(input("Digite o preço do produto: "))
+    quantidade = int(input("Digite a quantidade: "))
+
+    totalProduto.append(produto)
+    quantidadeTotal.append(quantidade)
+
+    if produto or quantidade == 0:
+        total = [a * b for a, b in zip(totalProduto, quantidadeTotal)]
+        print(f"O total foi {total}")
+        break

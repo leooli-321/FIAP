@@ -14,7 +14,6 @@ body {
     align-items: center;
 }
 
-/* Styles for headings */
 h1,
 h2 {
     color: aliceblue;
@@ -23,7 +22,6 @@ h2 {
 }
 
 
-/* Common styles for elements with class .simboloQuimico and .nome */
 .simboloQuimico,
 .nome {
     font-weight: 800;
