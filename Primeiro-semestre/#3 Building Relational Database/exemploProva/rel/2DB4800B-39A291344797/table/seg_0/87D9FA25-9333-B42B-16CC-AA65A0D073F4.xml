@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87D9FA25-9333-B42B-16CC-AA65A0D073F4" name="Relation_5">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Funcionario_ID_FUNCIONARIO" id="19BB0FCF-DB5A-9785-26DD-FDDB74AE83F2">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E1DF9DE-338C-4C89-E6FB-845DE6C35119" referredColumn="601CF056-EB4B-C925-DE48-BB51DE8CF2F1"/>
+</associations>
+</Column>
+<Column name="Dependente_ID_FUNCIONARIO" id="DB1B17D1-F805-F811-2005-0A5326BEAEE9">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56F5AC42-9A42-040B-F331-07E5480C1242" referredColumn="4F823D19-40F6-2B1B-4142-863B067DB653"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA1861A2-E096-D208-EB62-16402E4F06BB" name="Relation_5_PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19BB0FCF-DB5A-9785-26DD-FDDB74AE83F2"/>
+<colUsage columnID="DB1B17D1-F805-F811-2005-0A5326BEAEE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15EF3965-CC16-AD6C-6DB7-92499B9BABF8" name="Relation_5_Funcionario_FK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>66D5D7A7-1AB8-5C29-6706-C2AFC6609CA5</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19BB0FCF-DB5A-9785-26DD-FDDB74AE83F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66958459-7713-0FC7-C400-909B3D548F7D" name="Relation_5_Dependente_FK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>66D5D7A7-1AB8-5C29-6706-C2AFC6609CA5</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB1B17D1-F805-F811-2005-0A5326BEAEE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

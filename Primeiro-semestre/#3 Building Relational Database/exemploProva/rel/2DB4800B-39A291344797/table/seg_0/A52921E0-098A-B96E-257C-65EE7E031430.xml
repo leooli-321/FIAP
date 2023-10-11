@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A52921E0-098A-B96E-257C-65EE7E031430" name="Departamento">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>57E07A12-EA35-0707-9619-23CC1F7FCE12</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DEPARTAMENTO" id="0A802292-EFF7-FCD8-A43B-90219D901AB3">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>727FCCA0-9146-4550-C229-05580A7AF4D7</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="2A883CFA-9E3A-F686-CCC5-2AE36304A861">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>F067C9B1-1627-B504-4592-73F75CB13680</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="40DD7525-8727-3DA5-B38F-12B75A81FF6F">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>2C55D044-7945-2D5E-9481-E4D6278AD6E9</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8435E7C-1126-2E93-9876-74D959A3D13D" name="Departamento_PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>88B57D9D-8623-87D1-F95E-FE5819BD9A9A</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A802292-EFF7-FCD8-A43B-90219D901AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

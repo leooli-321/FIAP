@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57E07A12-EA35-0707-9619-23CC1F7FCE12" name="Departamento">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:22:09 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_DEPARTAMENTO" id="727FCCA0-9146-4550-C229-05580A7AF4D7">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:22:18 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="F067C9B1-1627-B504-4592-73F75CB13680">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:22:39 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descricao" id="2C55D044-7945-2D5E-9481-E4D6278AD6E9">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:23:03 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88B57D9D-8623-87D1-F95E-FE5819BD9A9A" name="Departamento PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:22:31 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>727FCCA0-9146-4550-C229-05580A7AF4D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E3C884E-E06C-9B28-5F33-3DCF31B507CA" name="Projeto">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>1387DC0E-510E-87C5-CB6D-97D1AAC71242</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROJETO" id="A7C321B6-5525-B6F5-C14E-AE449DD00104">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>E2B33AE8-A300-8175-EFC5-0CC9490605F7</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="E0C895C4-994C-E067-A492-09CB96B5542A">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>55D38A1B-7977-98D2-072A-DF95BE42EDDD</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="DA76D6B5-A49F-7587-1EE7-B785DB3CC1F7">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>8F33415F-6398-B6DC-CEC2-E7765C58C0D6</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>800</dataTypeSize>
+<ownDataTypeParameters>800,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUNCIONARIO_PROJETO_ID_FUNCIONARIO" id="CADD4680-6D51-EAEF-6354-7C7729DBA395">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>E3FE07A3-E522-068B-0592-57A3580752A4</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18E3EC8B-771E-6842-369E-903D685F8CB4" referredColumn="0960E810-7B62-A016-E39C-B234F5138512"/>
+</associations>
+</Column>
+<Column name="FUNCIONARIO_PROJETO_ID_PROJETO" id="99F26749-D0C3-D3C9-FE2F-AEF4D243652B">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>71BA1E41-2E56-24A1-9867-9C6C2F987020</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18E3EC8B-771E-6842-369E-903D685F8CB4" referredColumn="8A12C219-6FA7-1DC1-70FC-A91DAD12B474"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FB26429-D76E-6372-742F-AFC20D584D1B" name="Projeto_PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>ECA1D3BA-320E-9F42-4788-E9EB4EA60658</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7C321B6-5525-B6F5-C14E-AE449DD00104"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="973FA3F1-D590-5424-45D5-250C68D74918" name="Projeto_FUNCIONARIO_PROJETO_FK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>C2F1D82C-4F08-C69A-CC07-D40B47A9BA6D</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CADD4680-6D51-EAEF-6354-7C7729DBA395"/>
+<colUsage columnID="99F26749-D0C3-D3C9-FE2F-AEF4D243652B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

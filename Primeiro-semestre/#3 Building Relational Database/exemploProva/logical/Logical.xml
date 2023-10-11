@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E6F9C21B-4A1B-DFCD-B818-654F78D441C4" mainViewID="D95129FE-C2B5-34C4-DA00-A406A560FC76">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:18:17 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

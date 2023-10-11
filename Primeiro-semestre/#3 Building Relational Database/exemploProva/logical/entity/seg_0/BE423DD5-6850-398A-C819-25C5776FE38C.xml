@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE423DD5-6850-398A-C819-25C5776FE38C" name="Funcionario">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:18:28 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FUNCIONARIO" id="F3EC9BEC-649A-A5D9-1794-C42A34C9DAB9">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:18:54 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="FD644D4F-5DB6-AA40-9E67-B19438F0FE2F">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:19:22 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataDeNascimento" id="A9395316-08F3-2D9F-F204-CDC77D46874B">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:19:40 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARGO" id="53DB49DD-20DF-94F3-7E28-F1464636F52A">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:21:52 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DEPARTAMENTO" id="120870A3-98B3-D22A-9D75-3CD718BBBFBD">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:29:12 UTC</createdTime>
+<generatorID>E62BD1D4-BB21-966D-1066-E1BEE2C828C6</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<referedAttribute>727FCCA0-9146-4550-C229-05580A7AF4D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FUNCIONARIO1" id="F43CB99A-DD86-2BB7-4815-BC8152390057">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:44:26 UTC</createdTime>
+<generatorID>714CDE6C-B016-E697-88BB-BA0D11A33697</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<referedAttribute>5EAD42F0-A725-70D7-E425-6E502B8E16C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PROJETO" id="C56F9DCE-AE6A-41E8-4DBF-6C3BA60C23B7">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:44:26 UTC</createdTime>
+<generatorID>714CDE6C-B016-E697-88BB-BA0D11A33697</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<referedAttribute>A23C1540-92FD-CFAD-9654-BE57A5E84257</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2BF5DFC-5BAC-C67C-E9A8-1A26DDEBD66C" name="Funcionario PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:21:30 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3EC9BEC-649A-A5D9-1794-C42A34C9DAB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F579BC46-A6B5-BFC1-4424-91A5A179FA2D" name="Dependente">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>A3AD08D6-F02F-FB86-7661-BC564634AB79</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FUNCIONARIO" id="4F823D19-40F6-2B1B-4142-863B067DB653">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>7A35385A-BEAD-1CB6-57BA-DFE717F9CD11</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="FE873EA2-92E8-D599-1923-7BE8057C4A23">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>1DCE35B1-56EE-8EBB-E1F4-4529940B3D15</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="B6626290-028E-1505-381D-1262F71B0884">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>BB39B9F1-1FD3-3D11-FFB0-C2C2A6A09973</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E45C5EC-33D8-7F12-84F9-56F873C171EA" name="Dependente_PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:56:16 UTC</createdTime>
+<generatorID>A9B65529-2D3C-8E28-A8F7-04DCA927F75C</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F823D19-40F6-2B1B-4142-863B067DB653"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

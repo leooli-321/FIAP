@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1387DC0E-510E-87C5-CB6D-97D1AAC71242" name="Projeto">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:33:01 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PROJETO" id="E2B33AE8-A300-8175-EFC5-0CC9490605F7">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:33:10 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="55D38A1B-7977-98D2-072A-DF95BE42EDDD">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:33:39 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descricao" id="8F33415F-6398-B6DC-CEC2-E7765C58C0D6">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:33:59 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>800</dataTypeSize>
+<ownDataTypeParameters>800,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FUNCIONARIO" id="E3FE07A3-E522-068B-0592-57A3580752A4">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:44:26 UTC</createdTime>
+<generatorID>C2F1D82C-4F08-C69A-CC07-D40B47A9BA6D</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<referedAttribute>5EAD42F0-A725-70D7-E425-6E502B8E16C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PROJETO1" id="71BA1E41-2E56-24A1-9867-9C6C2F987020">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:44:26 UTC</createdTime>
+<generatorID>C2F1D82C-4F08-C69A-CC07-D40B47A9BA6D</generatorID>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<referedAttribute>A23C1540-92FD-CFAD-9654-BE57A5E84257</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECA1D3BA-320E-9F42-4788-E9EB4EA60658" name="Projeto PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-10 22:33:24 UTC</createdTime>
+<ownerDesignName>exemploProva</ownerDesignName>
+<engineerTo>
+<item key="2DB4800B-AD73-AF71-2368-39A291344797" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2B33AE8-A300-8175-EFC5-0CC9490605F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
