@@ -1,0 +1,149 @@
+:root {
+    --color-gray: #5d5d5d;
+    --color-white: #f5f5f5;
+    --color-blue: #00a1e0;
+    --color-darkblue: #2c31b0;
+}
+
+
+.card {
+    width: 15.1em;
+    height: 22em;
+    background: var(--color-blue);
+    border-radius: 20px;
+    display: inline-block;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid black;
+    margin: 70px;
+}
+
+.card span {
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+}
+
+
+#nome {
+    margin: 8em auto 0;
+}
+
+#rm {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0.2em auto 0;
+}
+
+.card .bio {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: justify;
+    font-size: 0.8em;
+    margin: 1em auto 0;
+    width: max-content;
+}
+
+.card #foto {
+    width: 6.8em;
+    height: 6.8em;
+    background: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em 2em;
+}
+
+.card a {
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.card a:hover {
+    color: black;
+}
+
+#equipe {
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    text-decoration: none;
+}
+
+@media (min-width: 480px) {
+    ::-webkit-scrollbar {
+        height: 4px;
+        width: 4px;
+        overflow: visible;
+        border: 1px solid #d5d5d5;
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 0;
+        background: #eeeeee;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 0;
+        background: #b0b0b0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .card .bio {
+        font-weight: 700;
+        color: white;
+        display: block;
+        text-align: justify;
+        font-size: 1em;
+        margin: 1em auto 0;
+        width: max-content;
+    }
+
+    .card #foto {
+        width: 8em;
+        height: 8em;
+        background: white;
+        border-radius: 15px;
+        margin: 0 auto;
+        position: absolute;
+        top: 0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .content {
+        overflow: hidden;
+    }
+
+    #nome{
+        font-size: 20px;
+    }
+
+    .card {
+        width: 70%;
+        overflow-x: visible;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+}

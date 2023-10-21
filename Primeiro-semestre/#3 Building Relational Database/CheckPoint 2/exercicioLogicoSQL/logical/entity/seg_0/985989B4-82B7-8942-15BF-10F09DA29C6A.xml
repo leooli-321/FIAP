@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="985989B4-82B7-8942-15BF-10F09DA29C6A" name="T_SIP_FUNC_PROJ">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 22:51:15 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_func" id="37DC82DE-80CB-B8DE-93C0-E9C3323D0D46">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 22:52:52 UTC</createdTime>
+<generatorID>22A369EA-15E5-B432-4676-35B869831B5B</generatorID>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<referedAttribute>45A62E65-4DB9-4AE5-64AB-8768036EDCF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_projeto" id="3B062E7C-3DB4-F5B6-F959-89582A98C0E4">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 22:52:59 UTC</createdTime>
+<generatorID>348F3814-DDB9-5E16-B63C-5CE993B87CE8</generatorID>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<referedAttribute>7E29F61E-CA87-0E7D-FDC0-FDDF286BB933</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_papel_func_proj" id="CD391D79-3326-78B8-3F61-B6A3E4CD7C10">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 22:55:45 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="67F2CE5A-068F-F2C8-1309-107668626B71">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 22:58:08 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="268E2A3D-AB50-57A7-1C22-77DA73B7E4C7">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 22:58:25 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92234F32-77BE-B822-A01F-03620C4E194A" name="T_SIP_FUNC_PROJ PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 22:53:10 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37DC82DE-80CB-B8DE-93C0-E9C3323D0D46</attributeRef>
+<attributeRef>3B062E7C-3DB4-F5B6-F959-89582A98C0E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

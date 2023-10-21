@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="813C76E7-16CD-CF65-5C3E-4DAF44AAF687" name="t_sip_telefone">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:09:10 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefone" id="CCCE5CD3-D3CE-D8BC-6E04-C413EE389703">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:09:21 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_ddd" id="7E7E086B-69F7-FC90-0527-B5646FC52031">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:09:42 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="93E908ED-F13F-7972-FFB8-C641A6DC5882">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:11:21 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_func" id="E7BC90C0-AECA-EDC2-8A63-E9C655D6C66D">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:12:23 UTC</createdTime>
+<generatorID>E2EBE1C5-CC83-4876-5A62-CCDE5D7E710D</generatorID>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<referedAttribute>45A62E65-4DB9-4AE5-64AB-8768036EDCF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75F8DEE0-6E18-4D97-17CB-AD7AE643B6DA" name="t_sip_telefone PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:09:38 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCCE5CD3-D3CE-D8BC-6E04-C413EE389703</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

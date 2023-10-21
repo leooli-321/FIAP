@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Criando Formulários</h2>
+    < name="frmCadastro" action="index.html" method="POST">
+        <label for="txtNome">Nome: </label>
+        <input type="text" name="txtNome" id="txtNome" maxlength="100" accesskey="n" tabindex="1">
+        <br>
+        <label for="dataNasc">Data Nascimento:
+            <input type="date" name="dataNasc" id="dataNasc" min="2000-01-03" max="2023-11-05">
+        </label>
+        <br>
+        <label for="dataNasc1">Data Nascimento (datetime-local):
+            <input type="datetime-local" name="dataNasc1" id="dataNasc1" min="2023-01-03" max="2023-11-05">
+        </label>
+        <br>
+        <label for="txtCPF">CPF:
+            <input type="text" name="txtCPF" id="txtCPF" maxlength="11">
+        </label>
+        <br>
+        <label for="txtTEL">TEL:
+            <input type="tel" name="txtTEL" id="txtTEL" maxlength="14">
+        </label>
+        <br>
+        <label for="cmbUF">UF:
+            <select name="cmbUF" id="cmbUF">
+                <optgroup label="Região Sul">
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Caterina</option>
+                    <option value="PR">Paraná</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option selected>Selecione</option>
+                </optgroup>
+            </select>
+        </label>
+        <br>
+        <label for="txtEmail">E-Mail:
+            <input type="email" name="txtEmail" id="txtEmail">
+        </label>
+        <br>
+        <label for="pwdSenha">Senha:
+            <input type="password" name="pwdSenha" id="pwdSenha">
+        </label>
+        <br>
+        <label for="chkTermos">Termos
+            <input type="checkbox" name="chkTermos" id="chkTermos" value="Concordo">
+        </label>
+
+        <label for="lblSexo">Sexo</label>
+        <label for="rdoSexoM"><input type="radio" name="rdoSexo" id="rdoSexoM" value="M">Masculino</label>
+        <label for="rdoSexoF"><input type="radio" name="rdoSexo" id="rdoSexoF" value="F">Feminino</label>
+        <label for="rdoSexoO"><input type="radio" name="rdoSexo" id="rdoSexoO" value="O">Outro</label>
+
+        <label for="pckColor"></label>
+
+        <br>
+        <input type="submit">
+
+
+
+    </form>
+
+</body>
+
+</html>

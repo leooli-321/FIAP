@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4367F7E5-5049-CFF9-C03E-3B6A346A1D6C" name="T_SIP_END">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:13:22 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="72F3FED7-E88A-89EA-4BA7-5EAE08774A06">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:13:40 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro" id="A4F05380-99A1-82F8-A122-34E26B44D71B">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:14:19 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nmr_rua" id="051A7EFB-A2D3-9A28-5BF5-9FF7588E2BE3">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:14:31 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_rua" id="2A6970D6-C428-D33A-2A87-8C75B5982B91">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:15:23 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nmr_cep" id="E0C09A17-6F6D-8E73-6376-F52DD193462C">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:15:49 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A0CEE28-57F1-6FD2-97CA-A3A6E7F91C5D" name="T_SIP_ENDERECO PK">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:14:17 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72F3FED7-E88A-89EA-4BA7-5EAE08774A06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,11 @@
+#projeto {
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    text-decoration: none;
+}
+
+#projeto:hover {
+    color: var(--color-blue);
+}

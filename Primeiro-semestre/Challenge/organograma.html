@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./images/ico/salesforce.png" type="image/x-icon">
+    <title>Desafio - Responsive Web Development</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/organograma.css">
+    <link rel="stylesheet" href="./style/footer.css">
+
+</head>
+
+<body>
+
+    <div class="corpo">
+        <header>
+            <div class="container" id="navbar">
+                <a href="./index.html" class="logo">Nome <b>Grupo</b></a>
+                <ul class="links">
+                    <a id="projeto" href="./index.html">
+                        <li>O Projeto</li>
+                    </a>
+                    <a id="organograma" href="./organograma.html">
+                        <li>Organograma</li>
+                    </a>
+                    <a id="equipe" href="./equipe.html">
+                        <li>A Equipe</li>
+                    </a>
+                </ul>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="container">
+                <div class="info">
+                    <h1 class="titulo">Organograma</h1>
+                    <img src="./images/organograma/organogramaFundo.png" alt="" id="organograma">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">FIAP - SalesForce Challenge - 2023</div>
+    </footer>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "d3dbdd89-a1a4-411b-8fa2-3c46c512add7", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "e27db655-79b0-46f5-9df1-221e9de03b25", // The ID of your service instance.
+            onLoad: function (instance) { instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+
+
+</body>
+
+</html>

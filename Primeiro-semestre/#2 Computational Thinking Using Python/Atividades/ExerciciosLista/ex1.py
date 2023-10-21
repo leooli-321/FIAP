@@ -2,7 +2,7 @@ numeros = []
 par = []
 impar = []
 
-while len(numeros) < 10:
+while len(numeros) < 11:
     selecao = int(input("Digite 10 números em sequência: "))
     numeros.append(selecao)
 

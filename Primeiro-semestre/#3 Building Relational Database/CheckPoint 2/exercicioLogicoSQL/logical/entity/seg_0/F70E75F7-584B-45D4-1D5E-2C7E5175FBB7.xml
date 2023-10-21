@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F70E75F7-584B-45D4-1D5E-2C7E5175FBB7" name="T_SIP_FUNC_END">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:20:31 UTC</createdTime>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_func" id="E0DF8D5E-FBEF-D200-315A-E485D4687A04">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:21:08 UTC</createdTime>
+<generatorID>1282548F-8A18-6CE5-A212-583E5EE435B8</generatorID>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<referedAttribute>45A62E65-4DB9-4AE5-64AB-8768036EDCF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_endereco" id="D6BE0C7D-B265-9A41-AB2A-926A8F0A7936">
+<createdBy>Leo Oli</createdBy>
+<createdTime>2023-10-17 23:21:23 UTC</createdTime>
+<generatorID>D86D8E17-ECB1-59C1-8A01-CFBC2D73132A</generatorID>
+<ownerDesignName>exercicioLogicoSQL</ownerDesignName>
+<engineerTo>
+<item key="8326BA58-ACF8-0542-F17D-FEF153D32012" value="true"/>
+</engineerTo>
+<referedAttribute>72F3FED7-E88A-89EA-4BA7-5EAE08774A06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
