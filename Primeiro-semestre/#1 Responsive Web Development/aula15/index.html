@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style/user.css">
+    <link rel="stylesheet" href="./style/login.css">
+    <link rel="stylesheet" href="./style/body.css">
+
+    <script src="./Script/script.js"></script>
+</head>
+
+<body>
+
+    <form name="frmCad" method="post">
+        <label for="txtUser">Usuário: </label>
+        <input type="text" id="txtUser" name="txtUser">
+        <span id="erroNome"></span>
+        <br>
+        <label for="pwdPass">Senha:</label>
+        <input type="password" id="pwdPass" name="pwdPass">
+        <span id="erroSenha"></span>
+        <br>
+        <input type="button" value="Login" id="login" onclick="return validar()">
+    </form>
+
+</body>
+
+</html>
