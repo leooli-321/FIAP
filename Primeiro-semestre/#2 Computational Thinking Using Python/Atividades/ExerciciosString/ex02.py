@@ -10,7 +10,7 @@ for i in range(5):
     valorVenda = float(input("Digite o valor da venda: "))
 
     produto = {'ID':id, 'Descricao':descricao, 'Categoria':categoria,
-               'Quantidade em Estoque'qtdEstoque, 'Valor da Compra':valorCompra,  'Valor da Venda':valorVenda}
+               'Quantidade em Estoque':qtdEstoque, 'Valor da Compra':valorCompra,  'Valor da Venda':valorVenda}
 
     listaProdutos.append(produto)
 
