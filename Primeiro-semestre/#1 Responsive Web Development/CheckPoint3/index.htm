@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bôley Voll</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="title_page">
+        <h1 class="title_volei">Jogo de Vôlei</h1>
+    </div>
+    <div id="opcoes">
+        <button class="button_evento" onclick="iniciarNovaPartida()">Iniciar partida</button>
+        <button class="button_evento" onclick="carregarJogoAnterior()">Jogo anterior</button>
+        <button class="button_evento" onclick="verEstatisticas()">Estatísticas</button>
+    </div>
+
+    <div id="jogo" style="display: none;">
+        <div id="equipes">
+            <div>
+                <h2>Equipe A</h2>
+                <p id="pontuacaoEquipeA">0</p>
+                <button onclick="marcarPonto('equipeA')">Pontuar</button>
+            </div>
+            <div>
+                <h2>Equipe B</h2>
+                <p id="pontuacaoEquipeB">0</p>
+                <button onclick="marcarPonto('equipeB')">Pontuar</button>
+            </div>
+        </div>
+
+        <div id="eventos">
+            <h2>Eventos</h2>
+            <select id="jogadorEvento">
+                <option value="jogadorA">Jogador A</option>
+                <option value="jogadorB">Jogador B</option>
+            </select>
+            <input type="text" id="descricaoEvento" placeholder="Descrição do Evento">
+            <button onclick="registrarEvento()">Registrar Evento</button>
+            <ul id="listaEventos"></ul>
+        </div>
+
+        <button onclick="encerrarSet()">Encerrar Set</button>
+        <button onclick="encerrarJogo()">Encerrar Jogo</button>
+        <button onclick="reiniciarJogo()">Reiniciar Jogo</button>
+        <button id="voltar" onclick="voltarParaOpcoes()" style="display: none;">Voltar</button>
+    </div>
+
+    <footer>
+        <h3>NOME E RM</h3>
+    </footer>
+
+    <script src="./js/scrypt.js"></script>
+</body>
+
+</html>
