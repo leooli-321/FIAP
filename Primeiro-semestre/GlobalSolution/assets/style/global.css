@@ -1,0 +1,80 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(0, 0, 0);
+    border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.53);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgb(125, 125, 125);
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.53);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(116.1px);
+    -webkit-backdrop-filter: blur(16.1px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+
+
+#acessibilidadeTexto {
+    position: fixed;
+    left: 40px;
+    bottom: 200px;
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, 'Nunito', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 16px;
+    z-index: 1;
+}
+
+#botaoFlutuanteMais {
+    position: fixed;
+    left: 10px;
+    bottom: 90px;
+    padding: 10px;
+    background-color: #EC6E0C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Inter', -apple-system, 'Nunito', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 2;
+}
+
+#botaoFlutuanteMenos {
+    position: fixed;
+    left: 10px;
+    bottom: 140px;
+    padding: 10px;
+    background-color: #EC6E0C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Inter', -apple-system, 'Nunito', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 2;
+}
+
+#botaoFlutuanteMais:hover,
+#botaoFlutuanteMenos:hover {
+    background-color: #D32F2F;
+}

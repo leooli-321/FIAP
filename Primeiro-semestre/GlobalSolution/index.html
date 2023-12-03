@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NotreDame Intermédica</title>
+  <title>Home - NotreDame Health</title>
+  <meta name="description" content="NotreDame Health - Sua solução abrangente de saúde e bem-estar.">
+  <meta name="keywords" content="NotreDame Health, saúde, bem-estar, medicina preventiva, prontuário médico">
+  <meta name="author" content="Nome do Autor">
+
+
+  <meta property="og:title" content="Home - NotreDame Health">
+  <meta property="og:description" content="NotreDame Health - Sua solução abrangente de saúde e bem-estar.">
+
+
+  <link rel="shortcut icon" href="./assets/favicon/notredameico.png" type="image/x-icon">
+
+
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-  <link rel="stylesheet" href='./assets/style/style.css'>
-  <link rel="shortcut icon" href="./assets/favicon/hospital.png" type="image/x-icon">
+  <link rel="stylesheet" href='./assets/style/index.css'>
+  <link rel="stylesheet" href='./assets/style/global.css'>
+  <link rel="stylesheet" href="./assets/style/footer.css">
 </head>
 
 <body>
 
-  <!-- partial:index.partial.html -->
-  <div class="container-fluid main">
-
+  <header>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -22,40 +34,98 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Projeto</a>
+          <a class="navbar-brand" href="./index.html">NotreDame Health</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#">No detalhe</a></li>
-            <li><a href="#">Sobre nós</a></li>
+            <li><a href="./descubra.html">Descubra</a></li>
+            <li><a href="./integrantes.html">Sobre nós</a></li>
           </ul>
         </div>
       </div>
     </nav>
+  </header>
 
-    <div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
-      <div class="carousel-inner" role="listbox">
-        <div class="item active background a"></div>
-        <div class="item background b"></div>
-        <div class="item background c"></div>
+  <main>
+    <div class="container-fluid main">
+      <div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active background a"></div>
+          <div class="item background b"></div>
+          <div class="item background c"></div>
+        </div>
+      </div>
+
+      <div class="covertext">
+        <div class="col-lg-10" style="float:none; margin:0 auto;">
+          <h1 class="title ajustavel" id="titulo">FIAP e NotreDame Intermédica</h1>
+          <h3 class="subtitle ajustavel">Saúde é um futuro no presente.</h3>
+        </div>
+        <div class="col-xs-12 explore">
+          <a href="./descubra.html"><button type="button" class="btn btn-hospital ajustavel">DESCUBRA</button></a>
+        </div>
       </div>
     </div>
+  </main>
 
-    <div class="covertext">
-      <div class="col-lg-10" style="float:none; margin:0 auto;">
-        <h1 class="title">FIAP e NotreDame Intermédica</h1>
-        <h3 class="subtitle">Saúde é um futuro no presente.</h3>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6 class="foottitle">Global Solution</h6>
+          <p class="text-justify">NotreDame Health é um sistema abrangente de saúde e bem-estar que simplifica
+            o acompanhamento do paciente. Ele oferece recursos como criação de perfis, acesso a históricos
+            médicos, registro de exames, acompanhamento psicológico e configuração de lembretes para
+            medicamentos. O foco está na medicina preventiva, com atenção especial aos pacientes
+            oncológicos, permitindo uma integração eficaz com o prontuário médico.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6 class="foottitle">Serviços</h6>
+          <ul class="footer-links">
+            <li><a href="./descubra.html#perfil">Criação de Perfil de Usuário</a></li>
+            <li><a href="./descubra.html#historico">Histórico de Saúde</a></li>
+            <li><a href="./descubra.html#registro">Registro de Exames</a></li>
+            <li><a href="./descubra.html#psicologo">Acompanhamento Psicológico</a></li>
+            <li><a href="./descubra.html#lembrete">Lembrete de Medicamentos</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6 class="foottitle">Conheça a Equipe</h6>
+          <ul class="footer-links">
+            <li><a href="./integrantes.html#cardDebora">Debora Costa - RM554196</a></li>
+            <li><a href="./integrantes.html#cardLeonardo">Leonardo de Oliveira - RM554024</a></li>
+            <li><a href="./integrantes.html#cardSara">Sara Sousa - RM552656</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-xs-12 explore">
-        <a href="#"><button type="button" class="btn btn-lg explorebtn">DESCUBRA</button></a>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">
+            <a href="https://www.fiap.com.br">FIAP</a> 2023 - Global Solution.
+          </p>
+        </div>
       </div>
     </div>
+  </footer>
 
-  </div>
-  <!-- partial -->
+
+  <div id="acessibilidadeTexto">Acessibilidade</div>
+  <button id="botaoFlutuanteMais">A+</button>
+  <button id="botaoFlutuanteMenos">A-</button>
+
+
+  <script src="./assets/js/chatbot.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/botao.js"></script>
 
 </body>
 
