@@ -1,0 +1,35 @@
+Estou fazendo um trabalho para SalesForce, onde preciso atualizar o site deles para um versão mais inclusiva e com acessibilidade.
+Baseado nestas 3 histórias de usuário, crie um backlog com 3 tópicos para cada: Requisitos funcionais, Requisitos não Funcionais e Regra de Negócio:
+
+"Eu como usuário gostaria de ter um atendimento personalizado através de um chatbot para que eu seja guiado de forma assertiva às minhas necessidades"
+
+"Eu como usuário gostaria de navegar em um site intuitivo através de uma interface clara e objetiva para que possa identificar facilmente se os serviços fornecidos atendem minhas necessidades"
+
+"Eu como usuário portador de deficiência visual, gostaria de ter uma experiência adaptada à minha condição através de um mecanismo de leitura de tela para que facilite a minha navegação no site"
+
+Dentre os nossos objetivos, estão:
+"O desenvolvimento do site proposto se concentrará em várias áreas chave:
+
+
+
+1.
+
+Chatbot com atendimento personalizado: Será criado um chatbot que utilizará algoritmos de aprendizado de máquina para compreender as necessidades individuais do usuário, fazendo perguntas claras e específicas para oferecer respostas e orientações pertinentes. Além disso, o chatbot poderá reconhecer o histórico de interações passadas para fornecer um atendimento ainda mais personalizado.
+
+
+
+2.
+
+Acessibilidade para pessoas com deficiência visual: O site será desenvolvido de acordo com as diretrizes de acessibilidade da Web, incluindo as especificações do WCAG. Isso envolverá a implementação de recursos como descrições de texto alternativas para imagens e gráficos, estruturação adequada de cabeçalhos e links, contraste de cores adequado e o uso de marcadores semânticos para tornar a navegação mais clara.
+
+
+
+3.
+
+Síntese de voz para interação com o chatbot: Um sistema de síntese de voz será incorporado ao chatbot, permitindo que usuários com deficiência visual interajam com o chatbot por meio de comandos de voz. O chatbot também fornecerá respostas e orientações de forma textual compatíveis com leitores de tela.
+
+
+
+4.
+
+Abordagem direcionada para venda e marketing: Além das funcionalidades anteriores, a solução incluirá estratégias de upselling e cross-selling, onde o chatbot identificará oportunidades para oferecer produtos ou serviços mais avançados e sugerir complementos ou produtos relacionados de forma sutil e relevante durante as interações, oferecendo valor real aos usuários."
