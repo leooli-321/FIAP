@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario</title>
+    <link rel="stylesheet" href="./css/update.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/score.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="./css/mobile.css">
+    <script src="./js/update.js" defer></script>
+    <link rel="shortcut icon" href="./img/fav/retro.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="startScreen" style="display: flex;">
+        <h1>Aperte enter para iniciar</h1>
+    </div>
+    
+
+    <div class="game-board">
+        <div id="score" class="pontuacao">Distância: 0</div>
+        <div id="highScore" class="pontuacao">Recorde: 0</div>
+        <img src="./img/clouds.png" alt="Nuvens do jogo" class="clouds">
+        <img src="./img/mario.gif" alt="Personagem Mario" class="mario">
+        <img src="./img/pipe.png" alt="Cano do jogo" class="pipe">
+    </div>
+    <div id="gameOverScreen" style="display: none;">VOCE MORREU</div>
+    <audio id="gameOverSound" src="./sound/diesound.mp3" preload="auto"></audio>
+    <audio id="nicePointsSound" src="./sound/nicepoints.mp3" preload="auto"></audio>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
+
+</html>

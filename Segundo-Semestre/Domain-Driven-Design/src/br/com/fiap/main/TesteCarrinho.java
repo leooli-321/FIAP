@@ -16,12 +16,14 @@ public class TesteCarrinho {
 	
 	//int
 	static int inteiro(String j) {
-		return Integer.parseInt(JOptionPane.showInputDialog(j));
+		return Integer.parseInt
+				(JOptionPane.showInputDialog(j));
 	}
 	
 	//Double
 	static double real(String j) {
-		return Double.parseDouble(JOptionPane.showInputDialog(j));
+		return Double.parseDouble
+				(JOptionPane.showInputDialog(j));
 	}
 
 	public static void main(String[] args) {
