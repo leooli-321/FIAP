@@ -1,0 +1,117 @@
+# 📚 SQL Developer: Restrições e Tipos de Constraints 📚
+
+## 📌 Exemplos de Restrições no SQL Developer
+
+Aqui estão alguns exemplos de como você pode usar cada uma dessas restrições no SQL Developer:
+
+### 1️⃣ Not Null
+
+A restrição Not Null garante que uma coluna não aceite valores NULL. Aqui está um exemplo de como você pode usar a restrição Not Null ao criar uma tabela:
+
+\```sql
+CREATE TABLE Estudantes (
+    ID int NOT NULL,
+    Nome varchar(255),
+    Idade int
+);
+\```
+
+Neste exemplo, a coluna ID não pode aceitar valores NULL.
+
+### 2️⃣ Unique
+
+A restrição Unique garante que todos os valores em uma coluna sejam diferentes. Aqui está um exemplo:
+
+\```sql
+CREATE TABLE Estudantes (
+    ID int NOT NULL UNIQUE,
+    Nome varchar(255),
+    Idade int
+);
+\```
+
+Neste exemplo, a coluna ID deve conter valores únicos.
+
+### 3️⃣ Check
+
+A restrição Check é usada para garantir que um valor específico esteja dentro de um determinado intervalo. Aqui está um exemplo:
+
+\```sql
+CREATE TABLE Estudantes (
+    ID int NOT NULL,
+    Nome varchar(255),
+    Idade int CHECK (Idade >= 18)
+);
+\```
+
+Neste exemplo, a coluna Idade deve conter um valor maior ou igual a 18.
+
+### 4️⃣ Default
+
+A restrição Default é usada para preencher uma coluna com um valor padrão. Aqui está um exemplo:
+
+\```sql
+CREATE TABLE Estudantes (
+    ID int NOT NULL,
+    Nome varchar(255),
+    Idade int DEFAULT 18
+);
+\```
+
+Neste exemplo, se nenhum valor for especificado para a coluna Idade, o valor padrão será 18.
+
+### 5️⃣ Primary Key
+
+A restrição Primary Key é usada para identificar exclusivamente cada registro em uma tabela. Aqui está um exemplo:
+
+\```sql
+CREATE TABLE Estudantes (
+    ID int NOT NULL PRIMARY KEY,
+    Nome varchar(255),
+    Idade int
+);
+\```
+
+Neste exemplo, a coluna ID é a chave primária.
+
+### 6️⃣ Foreign Key
+
+A restrição Foreign Key é usada para criar um relacionamento entre duas tabelas. Aqui está um exemplo:
+
+\```sql
+CREATE TABLE Pedidos (
+    PedidoID int NOT NULL,
+    NumeroPedido int NOT NULL,
+    PessoaID int,
+    PRIMARY KEY (PedidoID),
+    FOREIGN KEY (PessoaID) REFERENCES Pessoas(PessoaID)
+);
+\```
+
+Neste exemplo, a coluna PessoaID na tabela Pedidos é uma chave estrangeira que referencia a coluna PessoaID na tabela Pessoas.
+
+## 📌 Tipos de Constraints
+
+### 1️⃣ Not Null
+
+A restrição Not Null é usada para garantir que uma coluna não aceite valores NULL. Isso impõe que um campo sempre contenha um valor, o que significa que você não pode inserir um novo registro ou atualizar um registro sem adicionar um valor a esse campo.
+
+### 2️⃣ Unique
+
+A restrição Unique é usada para garantir que todos os valores em uma coluna sejam diferentes. Ambas as restrições Unique e Primary Key fornecem uma garantia de unicidade para uma coluna ou conjunto de colunas.
+
+### 3️⃣ Check
+
+A restrição Check é um tipo de restrição de integridade em SQL que especifica um requisito que deve ser atendido por cada linha em uma tabela. A restrição deve ser um predicado. Pode se referir a uma única coluna ou a várias colunas da tabela.
+
+### 4️⃣ Default
+
+A restrição Default é usada para preencher uma coluna com um valor padrão e fixo. O valor será adicionado a todos os novos registros quando nenhum outro valor for especificado.
+
+### 5️⃣ Primary Key
+
+A restrição Primary Key é usada para identificar exclusivamente cada registro em uma tabela. As chaves primárias devem conter valores únicos e não podem conter valores NULL. Uma tabela pode ter apenas UMA chave primária; e na tabela, essa chave primária pode consistir em uma única coluna ou várias colunas.
+
+### 6️⃣ Foreign Key
+
+A restrição Foreign Key é usada para prevenir ações que destruiriam links entre tabelas. Uma Foreign Key é um campo (ou coleção de campos) em uma tabela, que se refere à Primary Key em outra tabela.

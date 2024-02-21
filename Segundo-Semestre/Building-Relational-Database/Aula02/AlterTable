@@ -1,0 +1,10 @@
+Comando ALTER TABLE
+Alterar a estrutura de uma tabela acrescentando, alterando, retirando  e
+
+ALTER TABLE <nome-tabela>
+DROP COLUMN <nome-coluna>
+ADD <nome-coluna><tipo-do-dado> [NOT NULL]
+                                [NOT NULL WITH DEFAULT]
+RENAME <nome-coluna> <novo-nome-coluna>
+MODIFY <nome-coluna> <tipo-de-dado> [NULL]
+                                    [NOT NULL];

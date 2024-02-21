@@ -1,0 +1,11 @@
+Comando create table
+> Sintaxe para criar a estrutura de uma tabela definindo as colunas (campos) e as chaves primárias e estrangeiras existentes (relacionamento PK x FK)
+
+Sintaxe:
+CREATE TABLE <nome-tabela> (
+    <nome-coluna> <tipo_do_dado> [NOT NULL] << (OBRIGATORIEDADE)
+    PRIMARY KEY (nome-coluna-chave)
+    FOREIGN key (nome-coluna-chave)
+    REFERENCES <nome-tabela-pai> (nome-coluna-chave-primeira));
+
+"NÃO É PRA USAR OS SIMBOLOS DE MAIOR E MENOR 😡"
