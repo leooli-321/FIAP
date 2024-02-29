@@ -1,108 +1,124 @@
-# 1) Escreva um programa em Python que faça um CRUD em uma lista de dicionários, os quais devem conter os seguintes dados:
+'''
+Escreva um programa em Python que faça um CRUD em uma lista de dicionários, os quais devem conter os seguintes dados:
+ 
+a. Código
+ 
+b. Nome do funcionário
+ 
+c. Idade do funcionário
+ 
+d. Salário do funcionário
+ 
+Faça o tratamento de erros no processo de inserção e alteração. As operações deverão ser executadas até que o usuário digite uma opção de saída 0 (Deseja continuar (1-SIM / 0-NÃO).
+'''
 
-# a. Código
-
-# b. Nome do funcionário
-
-# c. Idade do funcionário
-
-# d. Salário do funcionário
-
-# As operações deverão ser executadas até que o usuário digite uma opção de saída 0 (Deseja continuar (1-SIM / 0-NÃO).
 
 def main():
-    resposta = "s" or "S"
     lista_funcionario = []
+    resp = 1
 
-    while resposta != "N" or "n":
-        print('1 - Inserir Funcionário')
-        print('2 - Alterar Funcionário')
-        print('3 - Excluir Funcionário')
-        print('4 - Exibir Funcionário')
-
-        opc = int(input('Escolha uma opção [1/4]:\n'))
+    while (resp != 0):
+        print("1 - INSERIR FUNCIONÁRIO")
+        print("2 - ALTERAR FUNCIONÁRIO")
+        print("3 - EXCLUIR FUNCIONÁRIO")
+        print("4 - EXIBIR FUNCIONÁRIOS")
+        opc = int(input("Digite a opção desejada: "))
 
         match opc:
 
             case 1:
-                inserirFuncionario(lista_funcionario)
+                inseri_funcionario(lista_funcionario)
 
             case 2:
-                codigo = int(
-                    input("Insira o código do funcionário a ser alterado: "))
-                indice = buscarFuncionario(
-                    lista_funcionario, len(lista_funcionario), codigo)
-                if indice != -1:
-                    alterarFuncionario(lista_funcionario, indice)
+                try:
+                    codigo = int(
+                        input("Digite o codigo do funcionário que deseja alterar: "))
+                except ValueError:
+                    print("Digite valor númerico para o código")
                 else:
-                    print('Código do funcionnário não encontrado!')
+                    indice = buscar_funcionario(lista_funcionario, codigo)
+                    if (indice != -1):
+                        alterar_funcionario(lista_funcionario, indice)
+                    else:
+                        print("Funcionário não encontrado")
 
             case 3:
-                codigo = int(
-                    input("Insira o código do funcionário a ser alterado: "))
-                indice = buscarFuncionario(
-                    lista_funcionario, len(lista_funcionario), codigo)
-                if indice != -1:
-                    alterarFuncionario(lista_funcionario, indice)
+                try:
+                    codigo = int(
+                        input("Digite o codigo do funcionário que deseja excluir: "))
+                except ValueError:
+                    print("Digite valor númerico para o código")
                 else:
-                    print('Código do funcionnário não encontrado!')
+                    indice = buscar_funcionario(lista_funcionario, codigo)
+                    if (indice != -1):
+                        excluir_funcionario(lista_funcionario, indice)
+                    else:
+                        print("Funcionário não encontrado: ")
 
             case 4:
-                exibirFuncionarios(lista_funcionario)
+                exibir_funcionarios(lista_funcionario)
 
             case _:
-                print('Opção Inválida!')
+                print("Opção inválida")
 
-    resp = int(input('Deseja continuar? [S/N]'))
-
-
-def inserirFuncionario(lista_funcionario):
-    codigo = int(input("Insira o código do funcionário: "))
-    nome = input("Insira o nome do funcionário: ")
-    idade = int(input("Insira a idade do funcionário: "))
-    salario = float(input("Insira o salário do funcionário: "))
-
-    funcionario = {codigo: 'codigo', nome: 'Nome',
-                   idade: 'Idade', salario: 'Salario'}
-    lista_funcionario.append(funcionario)
+        resp = int(input("Deseja continuar (1-SIM/0-NÃO): "))
 
 
-def buscarFuncionario(lista_funcionario, tam, codigo):
+def inseri_funcionario(lista_funcionario):
+    try:
+        codigo = int(input("Digite o código do funcionário: "))
+        nome = input("Digite o nome do funcionário: ")
+        idade = int(input("Digite a idade do funcionário: "))
+        salario = float(input("Digite o salário do funcionário: "))
+    except ValueError:
+        print("Digite dados númericos para o código, idade e salário")
+    else:
+        funcionario = {'Codigo': codigo, 'Nome': nome,
+                       'Idade': idade, 'Salario': salario}
+        lista_funcionario.append(funcionario)
+        print("funcionario inserido com sucesso!!!")
+    finally:
+        print("Operação finalizada!")
+
+
+def buscar_funcionario(lista_funcionario, codigo):
     indice = -1
-    for i in range(tam):
-        if lista_funcionario[i]['codigo'] == codigo:
+    for i in range(len(lista_funcionario)):
+        if (lista_funcionario[i]['Codigo'] == codigo):
             indice = i
-    return (indice)
+    return indice
 
 
-def alterarFuncionario(lista_funcionario, indice):
-    print(f"Nome do funcionário: {lista_funcionario[indice]['Nome']}")
-    lista_funcionario[indice]['Nome'] = input('Digite o novo nome: ')
-
-    print(f"Código do funcionário: {lista_funcionario[indice]['codigo']}")
-    lista_funcionario[indice]['codigo'] = input(
-        'Digite o novo codigo do funcionário: ')
-
-    print(f"Idade do funcionário: {lista_funcionario[indice]['idade']}")
-    lista_funcionario[indice]['idade'] = input(
-        'Altere a idade do funcionário: ')
-
-    print(f"Idade do funcionário: {lista_funcionario[indice]['idade']}")
-    lista_funcionario[indice]['idade'] = input(
-        'Altere a idade do funcionário: ')
+def alterar_funcionario(lista_funcionario, indice):
+    try:
+        print(f"Nome: {lista_funcionario[indice]['Nome']}")
+        nome = input("Digite o novo nome: ")
+        print(f"Idade:{lista_funcionario[indice]['Idade']}")
+        idade = int(input("Digite a idade do funcionário: "))
+        print(f"Salario: {lista_funcionario[indice]['Salario']}")
+        salario = float(input("Digite novo salario: "))
+    except ValueError:
+        print("Digite dados númericos para idade e salário")
+    else:
+        lista_funcionario[indice]['Nome'] = nome
+        lista_funcionario[indice]['Idade'] = idade
+        lista_funcionario[indice]['Salario'] = salario
+        print("Dados alterados com sucesso!!!")
+    finally:
+        print("Operação finalizada!")
 
 
 def excluir_funcionario(lista_funcionario, indice):
     lista_funcionario.pop(indice)
-    print("Funcionário apagado com sucesso!")
+    print("Funcionario excluido com sucesso!!!")
 
 
-def exibirFuncionarios(lista_funcionario, tam):
-    for i in range(tam):
-        print(f"Funcionário {i+1}")
+def exibir_funcionarios(lista_funcionario):
+    for i in range(len(lista_funcionario)):
+        print(f"ALUNO {i + 1}")
         for chave, valor in lista_funcionario[i].items():
-            print(f"{chave} : {valor}")
-        print('-#')*15
+            print(f"{chave}:{valor}")
+        print("____________________________________")
 
 
 if __name__ == "__main__":
