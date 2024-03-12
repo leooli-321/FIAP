@@ -3,9 +3,9 @@ package br.com.fiap.main;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
-import br.com.fiap.beans.Livro;
+import br.com.fiap.beans.Carro;
 
-public class ArrayListLivro {
+public class ArrayListCarro {
 	
 	//String
 	static String texto(String j) {
@@ -22,36 +22,34 @@ public class ArrayListLivro {
 		return Double.parseDouble(JOptionPane.showInputDialog(j));
 	}
 	
-	
-
 	public static void main(String[] args) {
 		// Preparar a Lista
-		List<Livro> ListaLivros = new ArrayList<Livro>();
+		List<Carro> ListaCarros = new ArrayList<Carro>();
 		
-		// Preparar objLivro
-		Livro objLivro;
+		// Preparar objCarro
+		Carro objCarro;
 		
 		// Entrada
 		do {
-			objLivro = new Livro();
-			objLivro.setCodigo(inteiro("Codigo do Livro"));
-			objLivro.setNome(texto("Nome do Livro"));
-			objLivro.setEditora(texto("Editora"));
-			objLivro.setValor(real("Valor do Livro"));
+			objCarro = new Carro();
+			objCarro.setMarca(texto("Marca do Carro"));
+			objCarro.setModelo(texto("Modelo do Carro"));
+			objCarro.setAno(inteiro("Ano do Carro"));
+			objCarro.setValor(real("Valor do Carro"));
 			
-			ListaLivros.add(objLivro);
+			ListaCarros.add(objCarro);
 			
 			
-		} while ( JOptionPane.showConfirmDialog(null, "Registrar mais Livros?",
-				"CADASTRO DE LIVROS", JOptionPane.YES_NO_OPTION,
+		} while ( JOptionPane.showConfirmDialog(null, "Registrar mais Carros?",
+				"CADASTRO DE CARROS", JOptionPane.YES_NO_OPTION,
 				JOptionPane.QUESTION_MESSAGE) ==0);
 		
 		//Para ArrayList, saida utilizando o foreach
-		for (Livro livro : ListaLivros) {
-			System.out.println("\n\nCodigo: " + livro.getCodigo() +
-					          "\nNome: " + livro.getNome() + 
-					          "\nEditora: " + livro.getEditora() + 
-					          "\nValor " + livro.getValor());
+		for (Carro carro : ListaCarros) {
+			System.out.println("\n\nMarca: " + carro.getMarca() +
+					          "\nModelo: " + carro.getModelo() + 
+					          "\nAno: " + carro.getAno() + 
+					          "\nValor: " + carro.getValor());
 		}
 
 	}

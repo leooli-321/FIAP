@@ -1,9 +1,9 @@
 package br.com.fiap.main;
 
 import javax.swing.JOptionPane;
-import br.com.fiap.beans.Livro;
+import br.com.fiap.beans.Carro;
 
-public class VetorLivro {
+public class VetorCarro {
 	
 	//String
 	static String texto(String j) {
@@ -22,34 +22,32 @@ public class VetorLivro {
 
 	public static void main(String[] args) {
 		// Preparar vetor e definir o maximo de posições
-		Livro[] vetorLivro = new Livro [2]; // [0]  [1]
+		Carro[] vetorCarro = new Carro [2]; // [0]  [1]
 		
 		//Preparar indice
 		int indice= 0;
 		
 		//Entrada
 		do {
-			vetorLivro[indice] = new Livro();
-			vetorLivro[indice].setCodigo(inteiro("Codigo do Livro"));
-			vetorLivro[indice].setNome(texto("Nome do livro"));
-			vetorLivro[indice].setEditora(texto("Editora"));
-			vetorLivro[indice].setValor(real("Valor do livro"));
+			vetorCarro[indice] = new Carro();
+			vetorCarro[indice].setMarca(texto("Marca do Carro"));
+			vetorCarro[indice].setModelo(texto("Modelo do Carro"));
+			vetorCarro[indice].setAno(inteiro("Ano do Carro"));
+			vetorCarro[indice].setValor(real("Valor do Carro"));
 			
 			indice ++;
 			
-		} while (JOptionPane.showConfirmDialog(null, "Adicionar mais Livros?",
-				"CADASTRO DE LIVROS", JOptionPane.YES_NO_OPTION,
+		} while (JOptionPane.showConfirmDialog(null, "Adicionar mais Carros?",
+				"CADASTRO DE CARROS", JOptionPane.YES_NO_OPTION,
 				JOptionPane.QUESTION_MESSAGE) ==0);
 		
 		// Para Vetor, saidas utilizando for
 		for (int contador = 0; contador < indice; contador ++) {
-			System.out.println("\n\nCodigo: " + vetorLivro[contador].getCodigo()+
-					           "\nNome: " + vetorLivro[contador].getNome()+
-					           "\nEditora: " + vetorLivro[contador].getEditora() +
-					           "\nValor: " + vetorLivro[contador].getValor());
+			System.out.println("\n\nMarca: " + vetorCarro[contador].getMarca()+
+					           "\nModelo: " + vetorCarro[contador].getModelo()+
+					           "\nAno: " + vetorCarro[contador].getAno() +
+					           "\nValor: " + vetorCarro[contador].getValor());
 		}
-
- 		
 
 	}
 

@@ -1,45 +1,53 @@
 package br.com.fiap.beans;
 
-public class Livro {
+public class Carro {
 	
-	private int codigo;
-	private String nome;
-	private String editora;
+	private String marca;
+	private String modelo;
+	private int ano;
 	private double valor;
-	public Livro() {
+	
+	public Carro() {
 		super();
 	}
-	public Livro(int codigo, String nome, String editora, double valor) {
+	
+	public Carro(String marca, String modelo, int ano, double valor) {
 		super();
-		this.codigo = codigo;
-		this.nome = nome;
-		this.editora = editora;
+		this.marca = marca;
+		this.modelo = modelo;
+		this.ano = ano;
 		this.valor = valor;
 	}
-	public int getCodigo() {
-		return codigo;
+	
+	public String getMarca() {
+		return marca;
 	}
-	public void setCodigo(int codigo) {
-		this.codigo = codigo;
+	
+	public void setMarca(String marca) {
+		this.marca = marca;
 	}
-	public String getNome() {
-		return nome;
+	
+	public String getModelo() {
+		return modelo;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
+	
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
 	}
-	public String getEditora() {
-		return editora;
+	
+	public int getAno() {
+		return ano;
 	}
-	public void setEditora(String editora) {
-		this.editora = editora;
+	
+	public void setAno(int ano) {
+		this.ano = ano;
 	}
+	
 	public double getValor() {
 		return valor;
 	}
+	
 	public void setValor(double valor) {
 		this.valor = valor;
 	}
-	
-
 }
