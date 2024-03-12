@@ -7,6 +7,10 @@ def main():
 
     listaQuadrado = list(map(calcularQuadrado, listaOriginal))
 
+    print(listaOriginal)
+    print(listaQuadrado)
+
+
 def calcularQuadrado(num):
     return (num**2)
 
